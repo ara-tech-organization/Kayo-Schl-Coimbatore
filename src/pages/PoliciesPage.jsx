@@ -36,9 +36,28 @@ export default function PoliciesPage() {
         eyebrow="How We Care for Your Child"
         title="Everyday Policies, Built on Trust"
         description="From the very first day to every routine in between, here is how we keep your child safe, comfortable, and cared for."
+        variant="sunrise"
+        summaryTitle="A calm, safety-first start to every school day."
+        summaryPoints={[
+          "Gentle settling-in support for new children",
+          "Secure collection rules and clear parent communication",
+          "Daily hygiene, rest, and positive behaviour guidance",
+        ]}
       />
       <PoliciesProhibited />
-      <PoliciesGrid items={POLICIES_GROUP_TWO} />
+      <PoliciesGrid
+        items={POLICIES_GROUP_TWO}
+        eyebrow="How We Support Daily Wellbeing"
+        title="Inclusion, Health & Family Partnership"
+        description="These everyday policies help us support each child with consistency, kindness, and close communication with families."
+        variant="meadow"
+        summaryTitle="Practical routines that help children feel supported."
+        summaryPoints={[
+          "Inclusive care for every child and family",
+          "Healthy food habits and patient independence-building",
+          "Prompt updates around sickness, absence, and minor injuries",
+        ]}
+      />
       <PoliciesCTA />
     </PageLayout>
   );
