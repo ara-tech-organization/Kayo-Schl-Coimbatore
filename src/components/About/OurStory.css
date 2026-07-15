@@ -1,0 +1,87 @@
+.our-story {
+  position: relative;
+  padding: 110px 0;
+  background: var(--color-bg);
+}
+
+.our-story__content {
+  position: relative;
+  max-width: 780px;
+  margin-inline: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 6px;
+}
+
+.our-story__content h2 {
+  font-size: clamp(1.9rem, 3.6vw, 2.6rem);
+  max-width: 20ch;
+  margin: 6px 0 20px;
+}
+
+.our-story__prose {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  text-align: left;
+  width: 100%;
+}
+
+.our-story__prose p {
+  font-size: 1.02rem;
+  max-width: 68ch;
+}
+
+.our-story__milestones {
+  margin-top: 44px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 16px;
+}
+
+.our-story__milestone {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  text-align: left;
+  padding: 18px 20px;
+  background: var(--color-surface);
+  border: 1px solid var(--color-line-soft);
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-soft);
+  transition: transform var(--dur-med) var(--ease-premium), box-shadow var(--dur-med) var(--ease-premium),
+    border-color var(--dur-med) var(--ease-premium);
+}
+
+.our-story__milestone:hover {
+  transform: translateY(-6px);
+  box-shadow: var(--shadow-lift);
+  border-color: transparent;
+}
+
+.our-story__milestone span {
+  flex-shrink: 0;
+  width: 40px;
+  height: 40px;
+  border-radius: 12px;
+  display: grid;
+  place-items: center;
+  background: var(--color-secondary-light);
+  color: var(--color-secondary-dark);
+}
+
+.our-story__milestone p {
+  font-size: 0.92rem;
+  font-weight: 600;
+  color: var(--color-ink);
+  margin: 0;
+}
+
+@media (min-width: 640px) {
+  .our-story__milestones {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

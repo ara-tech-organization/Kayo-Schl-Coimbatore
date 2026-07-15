@@ -146,7 +146,7 @@
   font-size: 1rem;
 }
 
-@media (min-width: 720px) {
+@media (min-width: 768px) {
   .programmes__showcase {
     grid-template-columns: 1fr 1fr;
     align-items: center;
@@ -154,7 +154,7 @@
   }
 }
 
-@media (min-width: 980px) {
+@media (min-width: 992px) {
   .programmes__panel {
     grid-template-columns: 340px 1fr;
     padding: 22px;

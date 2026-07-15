@@ -1,6 +1,6 @@
 .why {
   position: relative;
-  padding: 170px 0 100px;
+  padding: 100px 0;
   background: var(--color-bg);
 }
 
@@ -57,13 +57,13 @@
   font-size: 0.96rem;
 }
 
-@media (min-width: 720px) {
+@media (min-width: 768px) {
   .why__grid {
     grid-template-columns: repeat(2, 1fr);
   }
 }
 
-@media (min-width: 1080px) {
+@media (min-width: 992px) {
   .why__grid {
     grid-template-columns: repeat(3, 1fr);
     gap: 30px;

@@ -137,9 +137,10 @@
   margin-top: 14px;
 }
 
-@media (min-width: 1080px) {
+@media (min-width: 992px) {
   .navbar__links {
     display: flex;
+    gap: 28px;
   }
   .navbar__phone {
     display: flex;

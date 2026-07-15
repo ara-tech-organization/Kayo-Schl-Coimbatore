@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 
-export default function useSeo({ title, description }) {
+export default function useSeo({ title, description, schema }) {
   useEffect(() => {
     if (title) document.title = title;
     if (description) {
@@ -13,4 +13,17 @@ export default function useSeo({ title, description }) {
       tag.setAttribute("content", description);
     }
   }, [title, description]);
+
+  useEffect(() => {
+    if (!schema) return;
+
+    const script = document.createElement("script");
+    script.type = "application/ld+json";
+    script.text = JSON.stringify(schema);
+    document.head.appendChild(script);
+
+    return () => {
+      document.head.removeChild(script);
+    };
+  }, [schema]);
 }

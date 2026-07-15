@@ -1,20 +1,13 @@
 import { Routes, Route } from "react-router-dom";
 import HomePage from "./pages/HomePage";
+import AboutPage from "./pages/AboutPage";
 import ComingSoonPage from "./pages/ComingSoonPage";
 
 function App() {
   return (
     <Routes>
       <Route path="/" element={<HomePage />} />
-      <Route
-        path="/about"
-        element={
-          <ComingSoonPage
-            title="Our About Page Is Coming Soon"
-            blurb="We're putting the finishing touches on the story of Kayo International — our founder, our philosophy, and our people. Meanwhile, reach out and we'll happily walk you through it."
-          />
-        }
-      />
+      <Route path="/about" element={<AboutPage />} />
       <Route
         path="/services"
         element={

@@ -51,4 +51,14 @@
 
   /* ---- Layout ---- */
   --container-w: 1240px;
+
+  /*
+   * ---- Breakpoints (reference only — CSS custom properties can't be
+   * used inside @media queries, so these literal values are mirrored
+   * by hand in every component's min-width query) ----
+   * xs: 0        (base / mobile-first styles, no query)
+   * sm: 576px
+   * md: 768px
+   * lg: 992px
+   */
 }

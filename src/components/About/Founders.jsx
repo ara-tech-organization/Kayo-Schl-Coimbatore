@@ -1,0 +1,121 @@
+import { useState } from "react";
+import { AnimatePresence, motion } from "framer-motion";
+import { GraduationCap, Quote, Rocket, UserRound } from "lucide-react";
+import SectionHeading from "../common/SectionHeading";
+import ArtPanel from "../common/ArtPanel";
+import "./Founders.css";
+
+const EASE = [0.16, 1, 0.3, 1];
+
+const FOUNDERS = [
+  {
+    name: "Veena Sundaramurthy",
+    role: "Founder & Director, M.A.",
+    icon: GraduationCap,
+    tone: "primary",
+    tags: ["Early Childhood Education", "Child Psychology", "NURTURE Lab Curriculum"],
+    quote:
+      "Every child deserves a nurturing space where they feel secure, inspired, and encouraged to reach their full potential.",
+    bio: [
+      "Veena Sundaramurthy, M.A. is the Founder and Director of Kayo International, bringing over a decade of experience in early childhood education. Her qualifications in Early Childhood Education and Child Psychology, along with her role as the creator of the NURTURE Lab Curriculum, reflect her commitment to holistic child development.",
+      "Her unique blend of analytical thinking from the corporate world and genuine passion for education has shaped every aspect of Kayo International — from curriculum design and teacher training to creating a safe, engaging, and child-centred learning environment.",
+      "As an educator, curriculum developer, and parent, Veena believes every child deserves a nurturing space where they feel secure, inspired, and encouraged to reach their full potential.",
+    ],
+  },
+  {
+    name: "Sankara K",
+    role: "Co-Founder",
+    icon: Rocket,
+    tone: "orange",
+    tags: ["Bits Pilani", "EdTech Strategy", "Growth & Operations"],
+    quote:
+      "I partner with school leaders and help them think bigger — turning ambitious goals into reality.",
+    bio: [
+      "My journey from Bits Pilani sparked a lifelong mission: merging education with technology to reimagine how schools grow and thrive. That curiosity has never faded — it's what gets me up every morning.",
+      "I spend my days building and testing bold, forward-thinking education solutions that help schools hit their goals, not just academically, but as businesses too. Scouting new opportunities is a big part of that — digging into markets, spotting trends, and staying a step ahead of what's happening across the industry.",
+      "At the heart of it, my role is simple: I partner with school leaders and help them think bigger. Whether it's cracking a tough strategic problem or mapping out the next phase of growth, I'm there to help turn ambitious goals into reality.",
+    ],
+  },
+];
+
+export default function Founders() {
+  const [active, setActive] = useState(0);
+  const founder = FOUNDERS[active];
+
+  return (
+    <section className="founders" id="founders">
+      <div className="container">
+        <SectionHeading
+          eyebrow="The People Behind Kayo"
+          title="Meet Our Founders"
+          description="Two complementary journeys — one rooted in early childhood education, the other in technology and strategy — brought together to build a preschool families trust."
+        />
+
+        <div className="founders__tabs" role="tablist" aria-label="Our founders">
+          {FOUNDERS.map((f, i) => (
+            <button
+              key={f.name}
+              type="button"
+              role="tab"
+              aria-selected={active === i}
+              className={`founders__tab ${active === i ? "is-active" : ""}`}
+              onClick={() => setActive(i)}
+            >
+              <f.icon size={16} strokeWidth={2} />
+              {f.name}
+            </button>
+          ))}
+        </div>
+
+        <div className="founders__stage">
+          <AnimatePresence mode="wait">
+            <motion.div
+              key={founder.name}
+              className="founders__panel"
+              initial={{ opacity: 0, y: 18 }}
+              animate={{ opacity: 1, y: 0 }}
+              exit={{ opacity: 0, y: -18 }}
+              transition={{ duration: 0.5, ease: EASE }}
+            >
+              <div className="founders__art">
+                <ArtPanel tone={founder.tone} icon={UserRound} label={founder.name} pop />
+                <span className="founders__role-chip">
+                  <founder.icon size={15} strokeWidth={2} />
+                  {founder.role}
+                </span>
+              </div>
+
+              <div className="founders__copy">
+                <h3>{founder.name}</h3>
+                <p className="founders__role">{founder.role}</p>
+
+                <div className="founders__tags">
+                  {founder.tags.map((t) => (
+                    <span key={t}>{t}</span>
+                  ))}
+                </div>
+
+                <div className="founders__quote">
+                  <Quote size={22} strokeWidth={2} aria-hidden="true" />
+                  <p>&ldquo;{founder.quote}&rdquo;</p>
+                </div>
+
+                {founder.bio.map((para) => (
+                  <p className="founders__bio" key={para.slice(0, 24)}>
+                    {para}
+                  </p>
+                ))}
+              </div>
+            </motion.div>
+          </AnimatePresence>
+
+          <div className="founders__dots" aria-hidden="true">
+            {FOUNDERS.map((f, i) => (
+              <span key={f.name} className={active === i ? "is-active" : ""} />
+            ))}
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+}

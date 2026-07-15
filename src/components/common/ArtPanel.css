@@ -10,6 +10,11 @@
   justify-content: center;
   box-shadow: var(--shadow-soft);
   will-change: transform;
+  transition: box-shadow var(--dur-med) var(--ease-premium);
+}
+
+.art-panel:hover {
+  box-shadow: var(--shadow-lift);
 }
 
 .art-panel--primary {
