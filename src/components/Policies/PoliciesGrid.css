@@ -10,25 +10,26 @@
   position: absolute;
   border-radius: 50%;
   pointer-events: none;
-  filter: blur(10px);
+  filter: blur(8px);
 }
 
 .pol-grid::before {
   width: 220px;
   height: 220px;
-  top: 32px;
+  top: 22px;
   right: -90px;
 }
 
 .pol-grid::after {
-  width: 280px;
-  height: 280px;
-  left: -120px;
-  bottom: -120px;
+  width: 260px;
+  height: 260px;
+  bottom: -110px;
+  left: -110px;
 }
 
 .pol-grid--sunrise {
-  background: linear-gradient(180deg, #fff8f0 0%, rgba(255, 255, 255, 0.98) 46%, #fffdf9 100%);
+  background:
+    linear-gradient(180deg, #fff8f0 0%, rgba(255, 255, 255, 0.98) 42%, #ffffff 100%);
 }
 
 .pol-grid--sunrise::before {
@@ -40,7 +41,8 @@
 }
 
 .pol-grid--meadow {
-  background: linear-gradient(180deg, #f7fbf1 0%, rgba(255, 255, 255, 0.98) 46%, #fffef9 100%);
+  background:
+    linear-gradient(180deg, #f8fbf1 0%, rgba(255, 255, 255, 0.98) 42%, #ffffff 100%);
 }
 
 .pol-grid--meadow::before {
@@ -53,43 +55,27 @@
 
 .pol-grid__frame {
   position: relative;
-  padding: 22px 18px;
-  border: 1px solid rgba(236, 223, 205, 0.88);
-  border-radius: 36px;
-  background: rgba(255, 255, 255, 0.8);
+  padding: 30px 20px;
+  border-radius: calc(var(--radius-lg) + 4px);
+  border: 1px solid var(--color-line-soft);
+  background: rgba(255, 255, 255, 0.88);
   box-shadow: var(--shadow-soft);
-  backdrop-filter: blur(10px);
-}
-
-.pol-grid__layout {
-  display: grid;
-  gap: 30px;
-}
-
-.pol-grid__layout--full {
-  display: block;
+  backdrop-filter: blur(8px);
 }
 
 .pol-grid__intro {
   display: grid;
-  gap: 20px;
+  gap: 22px;
 }
 
 .pol-grid__summary {
   position: relative;
-  padding: 24px 22px;
-  border-radius: 28px;
-  background: linear-gradient(135deg, rgba(255, 255, 255, 0.98), rgba(244, 238, 229, 0.95));
+  padding: 22px 20px;
+  border-radius: 26px;
+  color: var(--color-ink);
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.96), rgba(244, 238, 229, 0.92));
   border: 1px solid var(--color-line);
   box-shadow: var(--shadow-soft);
-}
-
-.pol-grid__summary::before {
-  content: "";
-  position: absolute;
-  inset: auto 20px 0;
-  height: 1px;
-  background: linear-gradient(90deg, transparent, var(--color-line), transparent);
 }
 
 .pol-grid__summary-kicker {
@@ -103,9 +89,8 @@
 }
 
 .pol-grid__summary h3 {
-  margin-bottom: 14px;
   font-size: 1.22rem;
-  color: var(--color-ink);
+  margin-bottom: 14px;
 }
 
 .pol-grid__summary-list {
@@ -113,42 +98,57 @@
   padding: 0;
   list-style: none;
   display: grid;
-  gap: 12px;
+  gap: 10px;
 }
 
 .pol-grid__summary-list li {
   display: flex;
-  gap: 10px;
   align-items: flex-start;
+  gap: 10px;
+  font-size: 0.94rem;
   color: var(--color-ink-soft);
-  font-size: 0.95rem;
 }
 
 .pol-grid__summary-list li::before {
   content: "";
-  flex-shrink: 0;
   width: 10px;
   height: 10px;
-  margin-top: 0.38rem;
   border-radius: 50%;
+  flex-shrink: 0;
+  margin-top: 0.38rem;
   background: linear-gradient(135deg, var(--color-primary), var(--color-orange));
 }
 
-.pol-grid__bento {
-  position: relative;
-  display: grid;
-  gap: 18px;
-  padding-left: 14px;
+@media (min-width: 768px) {
+  .pol-grid {
+    padding: 72px 0 36px;
+  }
+
+  .pol-grid__frame {
+    padding: 42px 34px;
+  }
 }
 
-.pol-grid__rail {
-  position: absolute;
-  top: 12px;
-  bottom: 12px;
-  left: 18px;
-  width: 2px;
-  border-radius: 999px;
-  background: linear-gradient(180deg, rgba(146, 43, 141, 0.2), rgba(238, 114, 51, 0.28), rgba(156, 203, 59, 0.22));
+@media (min-width: 992px) {
+  .pol-grid {
+    padding: 88px 0 40px;
+  }
+
+  .pol-grid__frame {
+    padding: 54px 46px;
+  }
+
+  .pol-grid__intro {
+    grid-template-columns: minmax(0, 1.2fr) minmax(280px, 0.8fr);
+    align-items: start;
+  }
+}
+
+.pol-grid__bento {
+  margin-top: 34px;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 18px;
 }
 
 .pol-card {
@@ -157,12 +157,12 @@
   --pol-accent: var(--color-primary);
   position: relative;
   display: grid;
-  gap: 16px;
-  padding: 18px;
-  padding-left: 28px;
-  border-radius: 30px;
-  background: rgba(255, 255, 255, 0.95);
-  border: 1px solid rgba(236, 223, 205, 0.9);
+  gap: 20px;
+  min-height: 100%;
+  padding: 24px 22px;
+  border-radius: 28px;
+  background: var(--color-surface);
+  border: 1px solid var(--color-line-soft);
   box-shadow: var(--shadow-soft);
   overflow: hidden;
   transition:
@@ -172,18 +172,6 @@
 }
 
 .pol-card::before {
-  content: "";
-  position: absolute;
-  left: -4px;
-  top: 34px;
-  width: 22px;
-  height: 22px;
-  border-radius: 50%;
-  background: var(--pol-accent);
-  box-shadow: 0 0 0 8px rgba(255, 255, 255, 0.92);
-}
-
-.pol-card::after {
   content: "";
   position: absolute;
   inset: 0 0 auto;
@@ -197,27 +185,29 @@
   border-color: rgba(0, 0, 0, 0);
 }
 
-.pol-card__meta {
+.pol-card__topline {
   position: relative;
   z-index: 1;
   display: flex;
-  align-items: center;
-  gap: 12px;
-  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 16px;
 }
 
 .pol-card__number {
   font-family: var(--font-display);
-  font-size: 1.45rem;
+  font-size: 1.4rem;
   line-height: 1;
   color: var(--pol-strong);
 }
 
 .pol-card__icon {
+  position: relative;
+  z-index: 1;
   display: grid;
   place-items: center;
-  width: 54px;
-  height: 54px;
+  width: 56px;
+  height: 56px;
   border-radius: 18px;
   background: var(--pol-soft);
   color: var(--pol-strong);
@@ -228,49 +218,34 @@
   transform: rotate(-6deg) scale(1.05);
 }
 
-.pol-card__tagline {
-  display: inline-flex;
-  align-items: center;
-  min-height: 36px;
-  padding: 8px 14px;
-  border-radius: var(--radius-pill);
-  background: var(--pol-soft);
-  color: var(--pol-strong);
-  font-size: 0.72rem;
-  font-weight: 800;
-  letter-spacing: 0.12em;
-  text-transform: uppercase;
-}
-
 .pol-card__body {
   position: relative;
   z-index: 1;
-  padding: 18px 18px 16px;
-  border-radius: 24px;
-  background:
-    linear-gradient(135deg, rgba(255, 255, 255, 0.98), rgba(244, 238, 229, 0.72));
-  border: 1px solid rgba(236, 223, 205, 0.7);
 }
 
-.pol-card__eyebrow {
-  display: inline-block;
-  margin-bottom: 10px;
+.pol-card__tagline {
+  display: inline-flex;
+  align-items: center;
+  min-height: 34px;
+  padding: 8px 12px;
+  border-radius: var(--radius-pill);
+  background: var(--pol-soft);
+  color: var(--pol-strong);
   font-size: 0.7rem;
-  font-weight: 800;
-  letter-spacing: 0.16em;
+  font-weight: 700;
+  letter-spacing: 0.1em;
   text-transform: uppercase;
-  color: var(--color-ink-faint);
+  margin-bottom: 14px;
 }
 
 .pol-card h3 {
+  font-size: 1.22rem;
   margin-bottom: 10px;
-  font-size: 1.25rem;
-  color: var(--color-ink);
 }
 
 .pol-card p {
+  font-size: 0.96rem;
   color: var(--color-ink-soft);
-  font-size: 0.97rem;
 }
 
 .pol-card--primary {
@@ -297,89 +272,30 @@
   --pol-accent: var(--color-orange);
 }
 
-@media (min-width: 768px) {
-  .pol-grid {
-    padding: 72px 0 36px;
-  }
-
-  .pol-grid__frame {
-    padding: 34px 28px;
-  }
-
+@media (min-width: 576px) {
   .pol-grid__bento {
-    padding-left: 22px;
-    gap: 22px;
+    grid-template-columns: repeat(2, 1fr);
   }
+}
 
-  .pol-grid__rail {
-    left: 28px;
+@media (min-width: 768px) {
+  .pol-grid__bento {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 20px;
   }
 
   .pol-card {
-    padding: 22px;
-    padding-left: 40px;
-  }
-
-  .pol-card__body {
-    padding: 22px 22px 20px;
+    padding: 28px 26px;
   }
 }
 
 @media (min-width: 992px) {
-  .pol-grid {
-    padding: 88px 0 42px;
+  .pol-grid__bento {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 22px;
   }
 
-  .pol-grid__frame {
-    padding: 46px 42px;
-  }
-
-  .pol-grid__layout {
-    grid-template-columns: minmax(300px, 0.92fr) minmax(0, 1.08fr);
-    align-items: start;
-    gap: 38px;
-  }
-
-  .pol-grid__intro {
-    position: sticky;
-    top: 108px;
-  }
-
-  .pol-grid__layout--full .pol-grid__bento {
-    max-width: 940px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  .pol-card {
-    grid-template-columns: 210px minmax(0, 1fr);
-    align-items: start;
-    gap: 20px;
-    padding: 24px;
-    padding-left: 46px;
-  }
-
-  .pol-card:nth-child(even) {
-    margin-left: 44px;
-  }
-
-  .pol-card:nth-child(odd) {
-    margin-right: 44px;
-  }
-
-  .pol-card__meta {
-    align-content: start;
-    gap: 14px;
-  }
-
-  .pol-card__number,
-  .pol-card__icon,
-  .pol-card__tagline {
-    width: fit-content;
-  }
-
-  .pol-card__body {
-    min-height: 100%;
-    padding: 26px 26px 24px;
+  .pol-card--lg {
+    grid-column: span 2;
   }
 }
