@@ -1,6 +1,6 @@
 .contact-hero {
   position: relative;
-  padding: 56px 0 0;
+  padding: 44px 0 0;
   overflow: hidden;
   background: linear-gradient(180deg, var(--color-bg-alt) 0%, var(--color-bg) 88%);
 }
@@ -63,9 +63,9 @@
   position: relative;
   z-index: 1;
   display: grid;
-  gap: 60px;
+  gap: 48px;
   align-items: center;
-  padding-bottom: 90px;
+  padding-bottom: 70px;
 }
 
 .contact-hero__copy {
@@ -126,8 +126,8 @@
 .contact-hero__visual {
   position: relative;
   width: 100%;
-  max-width: 460px;
-  height: 400px;
+  max-width: 340px;
+  height: 380px;
   margin: 0 auto;
 }
 
@@ -183,7 +183,7 @@
 .contact-hero__channel-text {
   display: flex;
   flex-direction: column;
-  max-width: 150px;
+  max-width: 120px;
 }
 
 .contact-hero__channel-text strong {
@@ -215,23 +215,6 @@
   left: -6%;
 }
 
-@media (max-width: 575.98px) {
-  .contact-hero {
-    padding-top: 44px;
-  }
-  .contact-hero__grid {
-    gap: 48px;
-    padding-bottom: 70px;
-  }
-  .contact-hero__visual {
-    max-width: 340px;
-    height: 380px;
-  }
-  .contact-hero__channel-text {
-    max-width: 120px;
-  }
-}
-
 .contact-hero__wave {
   position: relative;
   z-index: 1;
@@ -247,10 +230,20 @@
   }
 }
 
-@media (min-width: 576px) and (max-width: 767.98px) {
+@media (min-width: 576px) {
+  .contact-hero {
+    padding-top: 56px;
+  }
+  .contact-hero__grid {
+    gap: 60px;
+    padding-bottom: 90px;
+  }
   .contact-hero__visual {
     max-width: 420px;
     height: 390px;
+  }
+  .contact-hero__channel-text {
+    max-width: 150px;
   }
 }
 
@@ -262,12 +255,6 @@
   .contact-hero__visual {
     max-width: 440px;
     height: 400px;
-  }
-}
-
-@media (min-width: 768px) and (max-width: 991.98px) {
-  .contact-hero__visual {
-    margin: 0 auto;
   }
 }
 

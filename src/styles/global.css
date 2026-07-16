@@ -69,6 +69,34 @@ p {
   }
 }
 
+/* xs (below 576px): center standalone headings/paragraphs by default.
+   Lists and grids keep their natural alignment so items don't collapse
+   into a centered column. */
+@media (max-width: 575.98px) {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p {
+    text-align: center;
+  }
+
+  ul,
+  ol,
+  li,
+  ul h1, ul h2, ul h3, ul h4, ul h5, ul h6, ul p,
+  ol h1, ol h2, ol h3, ol h4, ol h5, ol h6, ol p,
+  li h1, li h2, li h3, li h4, li h5, li h6, li p,
+  [class*="grid"],
+  [class*="grid"] h1, [class*="grid"] h2, [class*="grid"] h3,
+  [class*="grid"] h4, [class*="grid"] h5, [class*="grid"] h6,
+  [class*="grid"] p {
+    text-align: left;
+  }
+}
+
 .eyebrow {
   display: inline-flex;
   align-items: center;

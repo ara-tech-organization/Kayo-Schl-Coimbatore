@@ -177,9 +177,3 @@
     width: 300px;
   }
 }
-
-@media (min-width: 1240px) {
-  .fc-events__ticket {
-    width: calc((var(--container-w) - 3 * 24px) / 4);
-  }
-}

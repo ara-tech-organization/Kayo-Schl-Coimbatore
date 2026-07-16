@@ -1,4 +1,4 @@
-/* xs — base/mobile styles (<480px) */
+/* xs — base/mobile styles (<576px) */
 .our-story {
   position: relative;
   padding: 64px 0;
@@ -160,8 +160,8 @@
   margin: 0;
 }
 
-/* sm — ≥480px */
-@media (min-width: 480px) {
+/* sm — ≥576px */
+@media (min-width: 576px) {
   .our-story {
     padding: 80px 0;
   }
@@ -243,8 +243,8 @@
   }
 }
 
-/* lg — ≥960px */
-@media (min-width: 960px) {
+/* lg — ≥992px */
+@media (min-width: 992px) {
   .our-story {
     padding: 110px 0;
   }

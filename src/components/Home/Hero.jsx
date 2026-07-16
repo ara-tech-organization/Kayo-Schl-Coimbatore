@@ -42,8 +42,11 @@ export default function Hero() {
         <span className="hero__grain" />
       </div>
 
-      <div className="container hero__grid">
-        <div className="hero__copy">
+      <div className="hero__stage">
+        <video className="hero__stage-video" src={homeVideo} autoPlay muted loop playsInline />
+        <div className="hero__stage-overlay" />
+
+        <div className="container hero__stage-content">
           <motion.span
             className="hero__tagline"
             initial={{ opacity: 0, y: 14 }}
@@ -118,61 +121,33 @@ export default function Hero() {
               daycare option, Kayo International welcomes you with open arms.
             </p>
           </motion.details>
+
+          <motion.div
+            className="hero__stats"
+            initial={{ opacity: 0, y: 24 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.7, delay: 0.5, ease: [0.16, 1, 0.3, 1] }}
+          >
+            <div className="hero__stat">
+              <span className="hero__stat-icon">
+                <Star size={18} strokeWidth={2} />
+              </span>
+              <span>
+                <strong>4.9★ Rating</strong>
+                <span>on Google Reviews</span>
+              </span>
+            </div>
+            <div className="hero__stat">
+              <span className="hero__stat-icon hero__stat-icon--secondary">
+                <ShieldCheck size={18} strokeWidth={2} />
+              </span>
+              <span>
+                <strong>Safe & Nurturing</strong>
+                <span>CCTV monitored campus</span>
+              </span>
+            </div>
+          </motion.div>
         </div>
-
-        <motion.div
-          className="hero__visual"
-          initial={{ opacity: 0, scale: 0.94, y: 30 }}
-          animate={{ opacity: 1, scale: 1, y: 0 }}
-          transition={{ duration: 0.9, delay: 0.2, ease: [0.16, 1, 0.3, 1] }}
-        >
-          <div className="hero__visual-art hero__visual-video">
-            <video
-              className="hero__visual-video-el"
-              src={homeVideo}
-              autoPlay
-              muted
-              loop
-              playsInline
-            />
-          </div>
-
-          <motion.div
-            className="hero__visual-badge hero__visual-badge--rating"
-            initial={{ opacity: 0, y: 12 }}
-            animate={{ opacity: 1, y: [0, -10, 0] }}
-            transition={{
-              opacity: { duration: 0.6, delay: 0.55, ease: [0.16, 1, 0.3, 1] },
-              y: { duration: 4.5, delay: 1.1, repeat: Infinity, ease: "easeInOut" },
-            }}
-          >
-            <span className="hero__visual-badge-icon">
-              <Star size={18} strokeWidth={2} />
-            </span>
-            <span>
-              <strong>4.9★ Rating</strong>
-              <span>on Google Reviews</span>
-            </span>
-          </motion.div>
-
-          <motion.div
-            className="hero__visual-badge hero__visual-badge--safe"
-            initial={{ opacity: 0, y: -12 }}
-            animate={{ opacity: 1, y: [0, 10, 0] }}
-            transition={{
-              opacity: { duration: 0.6, delay: 0.65, ease: [0.16, 1, 0.3, 1] },
-              y: { duration: 5, delay: 1.2, repeat: Infinity, ease: "easeInOut" },
-            }}
-          >
-            <span className="hero__visual-badge-icon hero__visual-badge-icon--secondary">
-              <ShieldCheck size={18} strokeWidth={2} />
-            </span>
-            <span>
-              <strong>Safe & Nurturing</strong>
-              <span>CCTV monitored campus</span>
-            </span>
-          </motion.div>
-        </motion.div>
       </div>
 
       <div className="hero__marquee" aria-hidden="true">
