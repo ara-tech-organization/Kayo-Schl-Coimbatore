@@ -34,7 +34,7 @@ const QUALITIES = [
 
 export default function OurTeam({
   imageSrc = teamImg,
-  imageAlt = "Qualified early years teachers at Kayo International Preschool",
+  imageAlt = "Qualified early years teachers conducting interactive session at Kayo International Preschool Saravanampatti",
 }) {
   const ref = useRef(null);
   const { scrollYProgress } = useScroll({ target: ref, offset: ["start end", "end start"] });
@@ -53,22 +53,26 @@ export default function OurTeam({
           <SectionHeading
             align="left"
             eyebrow="Qualified, Caring, Committed"
-            title="Our Team"
-            description="A preschool is only as good as its educators. At Kayo International, we take immense pride in our team of dedicated teachers and caregivers who share Veena's passion for early childhood development."
+            title="Our Team — Qualified, Caring, Committed"
+            description="The strength of a preschool lies in its educators. At Kayo International, we're proud of our team of committed teachers and caregivers who share Veena's dedication to early childhood development."
           />
 
           <Reveal y={16} delay={0.06}>
             <p className="our-team__lead">
-              We believe that understanding child development, learning psychology, and
-              age-appropriate teaching methodologies is essential to providing the quality of care
-              your child deserves.
+              Every member of our teaching staff holds a Bachelor&rsquo;s degree in Early Years
+              Education or an equivalent qualification. We&rsquo;re firm believers that a solid
+              grasp of child development, learning psychology, and age-appropriate teaching
+              practices &mdash; paired with an attentive teacher-child ratio &mdash; is key to
+              giving your child the care they deserve.
             </p>
           </Reveal>
 
           <Reveal y={16} delay={0.1}>
             <p className="our-team__note">
-              When you choose Kayo, you are choosing a preschool with qualified teachers in
-              Chennai who are truly invested in your child&rsquo;s success.
+              Our teachers continually take part in training programs and workshops to stay
+              current with the latest thinking in early childhood education. Choosing Kayo means
+              choosing a preschool with qualified teachers in Coimbatore who are genuinely invested
+              in your child&rsquo;s growth.
             </p>
           </Reveal>
 
@@ -98,7 +102,7 @@ export default function OurTeam({
           <img src={imageSrc} alt={imageAlt} className="our-team__art-img" />
           <span className="sr-only">
             Qualified early years teachers conducting interactive session at Kayo International
-            Preschool Perungudi
+            Preschool Saravanampatti
           </span>
         </motion.div>
       </div>

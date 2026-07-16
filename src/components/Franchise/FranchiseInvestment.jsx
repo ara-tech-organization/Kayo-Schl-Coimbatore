@@ -7,31 +7,31 @@ const INVESTMENT = [
   {
     icon: Wallet,
     title: "Franchise Fee",
-    text: "One-time, with no recurring royalty.",
+    text: "A single one-time payment; no royalty ever follows it.",
     tone: "primary",
   },
   {
     icon: Building2,
     title: "Infrastructure & Interiors",
-    text: "Centre design, child-safe furniture, learning materials, play equipment.",
+    text: "Child-safe fit-out, Montessori materials, furniture, and play equipment to Kayo specification.",
     tone: "secondary",
   },
   {
     icon: Laptop2,
     title: "Technology Setup",
-    text: "CCTV systems, parent communication tools, administrative software.",
+    text: "CCTV coverage, parent-communication systems, and centre-management software.",
     tone: "gold",
   },
   {
     icon: Megaphone,
     title: "Initial Marketing",
-    text: "Launch campaigns, local promotions, and digital presence.",
+    text: "Launch campaign, local visibility, and your centre's digital presence.",
     tone: "orange",
   },
   {
     icon: PiggyBank,
     title: "Working Capital",
-    text: "For the first few months of operation.",
+    text: "Runway for the opening months while admissions build.",
     tone: "primary",
   },
 ];
@@ -49,9 +49,9 @@ export default function FranchiseInvestment() {
 
       <div className="container fr-invest__inner">
         <SectionHeading
-          eyebrow="Investment Overview"
-          title="What Your Investment Covers"
-          description="The total investment for a Kayo International preschool franchise varies based on location, property size, and local market conditions. Our investment framework typically covers:"
+          eyebrow="What It Takes to Build"
+          title="Investment Overview"
+          description="Total outlay depends on your city, property, and catchment, but every Kayo franchise budget is built from the same five components:"
         />
 
         <div className="fr-invest__receipt-wrap">
@@ -93,9 +93,9 @@ export default function FranchiseInvestment() {
 
         <Reveal y={18} delay={0.1} className="fr-invest__note">
           <p>
-            During our confidential discussion, we provide detailed financial projections,
-            break-even analysis, and a clear understanding of revenue potential based on your
-            specific location and market conditions.
+            In a confidential discussion we put real numbers on the table for your specific
+            location &mdash; projected admissions, break-even timeline, and revenue scenarios
+            &mdash; so your decision is made on arithmetic, not adjectives.
           </p>
         </Reveal>
       </div>

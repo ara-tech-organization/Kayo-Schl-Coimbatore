@@ -21,7 +21,7 @@ const MARQUEE_ITEMS = [
   { icon: Users, label: "1,000+ Happy Families" },
   { icon: Sparkles, label: "10+ Years of Trust" },
   { icon: Star, label: "4.9★ Google Rating" },
-  { icon: MapPin, label: "Perungudi, OMR Chennai" },
+  { icon: MapPin, label: "Saravanampatti, Coimbatore" },
   { icon: GraduationCap, label: "Montessori-Inspired Curriculum" },
 ];
 
@@ -50,7 +50,7 @@ export default function Hero() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, ease: [0.16, 1, 0.3, 1] }}
           >
-            <Heart size={14} strokeWidth={2.4} /> Shaping Little Minds Since 2013
+            <Heart size={14} strokeWidth={2.4} /> Nurturing Bright Beginnings
           </motion.span>
 
           <motion.h1
@@ -58,8 +58,8 @@ export default function Hero() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.75, delay: 0.1, ease: [0.16, 1, 0.3, 1] }}
           >
-            The <span className="hero__highlight">Best Preschool</span> in Chennai, Built for
-            Curious Little Minds
+            The <span className="hero__highlight">Best Preschool</span> in Saravanampatti —
+            Nurturing Little Minds Since 2013
           </motion.h1>
 
           <motion.p
@@ -68,11 +68,12 @@ export default function Hero() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.75, delay: 0.2, ease: [0.16, 1, 0.3, 1] }}
           >
-            Every child deserves a nurturing start. At Kayo International Preschool and DayCare, we
-            have spent over a decade creating a warm, stimulating environment where children aged 6
-            months to 12 years discover the joy of learning. Conveniently located in Perungudi, we
-            are proud to be the best preschool in Chennai OMR, trusted by more than 1,000 families
-            who have watched their children grow into confident, curious learners.
+            Every child deserves the best start in life. At Kayo International Preschool and
+            DayCare, we&rsquo;ve spent over a decade building a nurturing, engaging space where
+            children aged 6 months to 12 years fall in love with learning. Conveniently situated in
+            Saravanampatti, we&rsquo;re proud to be the preferred choice for over 1,000 families in
+            Coimbatore who&rsquo;ve watched their little ones blossom into confident, curious
+            learners.
           </motion.p>
 
           <motion.div
@@ -85,15 +86,15 @@ export default function Hero() {
               Start Today <ArrowRight size={18} />
             </a>
             <a
-              href="https://wa.me/919884004650"
+              href="https://wa.me/919342699339"
               target="_blank"
               rel="noreferrer"
               className="btn btn-outline"
             >
               <MessageCircle size={18} /> WhatsApp Us
             </a>
-            <a href="tel:+919884004650" className="hero__phone">
-              <Phone size={16} /> +91 98840 04650
+            <a href="tel:+919342699339" className="hero__phone">
+              <Phone size={16} /> +91 93426 99339
             </a>
           </motion.div>
 
@@ -112,9 +113,9 @@ export default function Hero() {
               their own.
             </p>
             <p className="hero__lead">
-              Whether you are searching for a top-rated preschool in Perungudi, a nurturing daycare
-              centre in OMR Chennai, or a Montessori-inspired early learning programme, Kayo
-              International welcomes you with open arms.
+              Whether you&rsquo;re searching for the best preschool in Coimbatore, a top-rated
+              preschool in Saravanampatti, or a Montessori preschool in Coimbatore with a genuine
+              daycare option, Kayo International welcomes you with open arms.
             </p>
           </motion.details>
         </div>

@@ -16,14 +16,14 @@ const FAMILY_CONNECT_SCHEMA = {
     name: "Kayo International Preschool and DayCare",
     sameAs: "https://www.kayointernational.in/",
   },
-  areaServed: ["Chennai", "Tamil Nadu", "South India"],
+  areaServed: ["Saravanampatti, Coimbatore", "Tamil Nadu"],
 };
 
 export default function FamilyConnectPage() {
   useSeo({
-    title: "Family Connect | Kayo International Chennai",
+    title: "Family Connect | Kayo International Coimbatore",
     description:
-      "Discover Kayo International's family engagement preschool approach in Perungudi, Chennai. Open-door policy, live parent monitoring, SMS daily updates & family events.",
+      "How Kayo International Saravanampatti keeps Coimbatore parents inside their child's day — daily updates, open communication, family events & a genuine open-door culture.",
     schema: FAMILY_CONNECT_SCHEMA,
   });
 

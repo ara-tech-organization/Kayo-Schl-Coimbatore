@@ -9,7 +9,7 @@ import useSeo from "../hooks/useSeo";
 const ABOUT_SCHEMA = {
   "@context": "https://schema.org",
   "@type": "Preschool",
-  name: "Kayo International Preschool and DayCare",
+  name: "Kayo International Preschool and DayCare - Coimbatore",
   founder: {
     "@type": "Person",
     name: "Veena Sundaramurthy",
@@ -17,26 +17,23 @@ const ABOUT_SCHEMA = {
   },
   foundingDate: "2013",
   description:
-    "Trusted preschool in Chennai with 10+ years experience, qualified teachers, and 4.9★ Google rating.",
+    "Trusted preschool brand with 10+ years of experience and qualified teachers, now serving Saravanampatti, Coimbatore.",
   address: {
     "@type": "PostalAddress",
-    addressLocality: "Perungudi",
-    addressRegion: "Chennai",
+    streetAddress: "No.14, 1C Marutham Nagar",
+    addressLocality: "Saravanampatti, Coimbatore",
+    addressRegion: "Tamil Nadu",
+    postalCode: "641035",
     addressCountry: "IN",
   },
-  aggregateRating: {
-    "@type": "AggregateRating",
-    ratingValue: "4.9",
-    reviewCount: "63",
-  },
-  areaServed: ["Perungudi, Chennai", "Saravanampatti, Coimbatore"],
+  areaServed: ["Saravanampatti, Coimbatore", "Perungudi, Chennai"],
 };
 
 export default function AboutPage() {
   useSeo({
-    title: "About Us | Kayo International Preschool",
+    title: "About Us | Kayo International Preschool Coimbatore",
     description:
-      "Discover Kayo International Preschool — founded by Veena Sundaramurthy in 2013. 10+ years of nurturing 1000+ children in Chennai with qualified teachers & a 4.9★ rating. Book a visit today.",
+      "Discover Kayo International Preschool founded by Veena Sundaramurthy in 2013. 10+ years of nurturing 1000+ children, now in Saravanampatti, Coimbatore. Book a visit today.",
     schema: ABOUT_SCHEMA,
   });
 

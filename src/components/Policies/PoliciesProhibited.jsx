@@ -5,10 +5,10 @@ import "./PoliciesProhibited.css";
 
 const PROHIBITED = [
   { icon: Ban, text: "Physical punishment of any kind" },
-  { icon: VolumeX, text: "Shouting or humiliating language" },
+  { icon: VolumeX, text: "Shouting or humiliation" },
   { icon: Utensils, text: "Force-feeding" },
-  { icon: Lock, text: "Isolation as a disciplinary measure" },
-  { icon: CameraOff, text: "Unauthorised photography or video recording of children" },
+  { icon: Lock, text: "Isolating a child as discipline" },
+  { icon: CameraOff, text: "Photography or recording of children by anyone outside authorised staff" },
 ];
 
 export default function PoliciesProhibited() {
@@ -24,10 +24,11 @@ export default function PoliciesProhibited() {
             <span className="eyebrow pol-prohibited__eyebrow">What We Never Allow</span>
             <h2>Practices Prohibited</h2>
             <p>
-              To protect every child in our care, the following practices are strictly prohibited
-              at KAYO INTERNATIONAL. Any staff member found violating these standards faces
-              immediate disciplinary action — our code of conduct ensures a safe, respectful, and
-              nurturing environment at all times.
+              Certain lines at Kayo are absolute: no physical punishment, no shouting or
+              humiliation, no force-feeding, no isolating a child as discipline, and no
+              photography or recording of children by anyone outside our authorised staff.
+              Violation by any team member triggers immediate disciplinary action — no warnings,
+              no second interpretations.
             </p>
           </div>
 

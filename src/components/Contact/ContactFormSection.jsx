@@ -15,7 +15,7 @@ import "./ContactFormSection.css";
 
 const CHILD_AGES = ["1.5–2 Years", "2–3 Years", "3–4 Years", "4–6 Years", "6-12 Years"];
 const PROGRAMMES = ["Playgroup", "Nursery", "Junior KG", "Senior KG", "Daycare"];
-const BRANCHES = ["Perungudi, Chennai", "Saravanampatti, Coimbatore"];
+const BRANCHES = ["Saravanampatti, Coimbatore", "Perungudi, Chennai"];
 
 export default function ContactFormSection() {
   const [submitted, setSubmitted] = useState(false);
@@ -30,8 +30,8 @@ export default function ContactFormSection() {
       <div className="container contact-form-section__grid">
         <Reveal x={-30} y={0} className="contact-info">
           <div className="contact-info__card">
-            <span className="eyebrow">Main Branch</span>
-            <h2>Our Perungudi Campus</h2>
+            <span className="eyebrow">Coimbatore Branch</span>
+            <h2>Our Saravanampatti Campus</h2>
 
             <div className="contact-info__points">
               <div className="contact-info__point">
@@ -40,7 +40,7 @@ export default function ContactFormSection() {
                 </span>
                 <div>
                   <strong>Address</strong>
-                  <p>No.3, 1st Cross Street, Rajiv Nagar, Perungudi, Chennai &ndash; 600096</p>
+                  <p>No.14, 1C Marutham Nagar, Saravanampatti, Coimbatore, Tamil Nadu &ndash; 641035</p>
                 </div>
               </div>
 
@@ -51,7 +51,7 @@ export default function ContactFormSection() {
                 <div>
                   <strong>Phone</strong>
                   <p>
-                    <a href="tel:+919884004650">+91 98840 04650</a>
+                    <a href="tel:+919342699339">+91 93426 99339</a>
                   </p>
                 </div>
               </div>
@@ -63,8 +63,8 @@ export default function ContactFormSection() {
                 <div>
                   <strong>Email</strong>
                   <p>
-                    <a href="mailto:chnperungudi@kayointernational.in">
-                      chnperungudi@kayointernational.in
+                    <a href="mailto:cbesaravanampatti@kayointernational.in">
+                      cbesaravanampatti@kayointernational.in
                     </a>
                   </p>
                 </div>
@@ -119,8 +119,8 @@ export default function ContactFormSection() {
                 <span className="eyebrow">Quick Contact Form</span>
                 <h3>Send Us an Enquiry</h3>
                 <p className="contact-form__hint">
-                  Fill in the form below and our admissions counsellor will get back to you
-                  within 24 hours.
+                  Share a few details and our admissions counsellor will call you back within 24
+                  hours.
                 </p>
 
                 <div className="contact-form__row">

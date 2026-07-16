@@ -51,7 +51,7 @@ export default function CurriculumHero() {
           transition={{ duration: 0.75, delay: 0.08, ease: EASE }}
         >
           <span className="curr-hero__title-prefix">NURTURE Lab Curriculum:</span> Where Montessori
-          Meets STEM in Chennai
+          Meets STEM in Coimbatore
         </motion.h1>
 
         <motion.p
@@ -60,13 +60,14 @@ export default function CurriculumHero() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.75, delay: 0.16, ease: EASE }}
         >
-          At KAYO International, we believe every child is born with extraordinary potential. Our
-          NURTURE Lab curriculum is an innovative fusion of Montessori methodology, STEM education,
-          play-based learning and Howard Gardner&rsquo;s Multiple Intelligence Theory, thoughtfully
-          designed to unlock that potential from the earliest years. Serving families across
-          Perungudi, OMR, Thoraipakkam and Sholinganallur, we have spent over a decade refining a
-          preschool curriculum that doesn&rsquo;t just prepare children for primary school, but
-          instills a lifelong love of learning.
+          At KAYO International, we believe every child arrives with remarkable potential waiting
+          to be unlocked. Our NURTURE Lab curriculum brings together Montessori methodology, STEM
+          education, play-based learning, and Howard Gardner&rsquo;s Multiple Intelligence Theory
+          into one thoughtfully crafted approach designed to bring out that potential from the
+          very start. Serving families across Saravanampatti, Kalapatti, Thudiyalur, and
+          Ganapathy, we&rsquo;ve spent over a decade perfecting a preschool curriculum that goes
+          beyond preparing children for primary school, it builds a genuine, lasting love of
+          learning.
         </motion.p>
 
         <motion.p
@@ -75,11 +76,11 @@ export default function CurriculumHero() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.75, delay: 0.2, ease: EASE }}
         >
-          Created under the expert guidance of our founder Veena Sundaramurthy, a qualified
-          professional in Early Childhood Education and Child Psychology, our curriculum recognises
-          that no two children learn the same way. That is precisely why we have built an approach
-          that adapts to your child&rsquo;s unique learning style rather than forcing them into a
-          rigid framework.
+          Developed under the expert direction of our founder Veena Sundaramurthy, a qualified
+          professional in Early Childhood Education and Child Psychology, our curriculum starts
+          from the understanding that every child learns differently. That&rsquo;s why we&rsquo;ve
+          shaped a curriculum that bends to fit your child&rsquo;s individual learning style,
+          rather than asking your child to fit into a rigid mold.
         </motion.p>
 
         <motion.p
@@ -88,7 +89,7 @@ export default function CurriculumHero() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.75, delay: 0.26, ease: EASE }}
         >
-          The name NURTURE itself reflects our core philosophy:
+          The name NURTURE captures our guiding philosophy:
         </motion.p>
 
         <motion.div

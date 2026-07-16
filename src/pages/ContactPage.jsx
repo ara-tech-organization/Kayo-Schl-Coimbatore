@@ -7,31 +7,31 @@ import useSeo from "../hooks/useSeo";
 const CONTACT_SCHEMA = {
   "@context": "https://schema.org",
   "@type": "Preschool",
-  name: "KAYO International Preschool - Perungudi",
+  name: "KAYO International Preschool - Saravanampatti, Coimbatore",
   address: {
     "@type": "PostalAddress",
-    streetAddress: "No.3, 1st Cross Street, Rajiv Nagar, Perungudi",
-    addressLocality: "Chennai",
+    streetAddress: "No.14, 1C Marutham Nagar, Saravanampatti",
+    addressLocality: "Coimbatore",
     addressRegion: "Tamil Nadu",
-    postalCode: "600096",
+    postalCode: "641035",
     addressCountry: "IN",
   },
-  telephone: "+91-98840-04650",
-  email: "chnperungudi@kayointernational.in",
+  telephone: "+91-93426-99339",
+  email: "cbesaravanampatti@kayointernational.in",
   openingHours: "Mo-Sa 09:00-18:00",
   url: "https://kayointernational.in/contact-us",
   geo: {
     "@type": "GeoCoordinates",
-    latitude: "12.9654",
-    longitude: "80.2451",
+    latitude: "[pin from GBP]",
+    longitude: "[pin from GBP]",
   },
 };
 
 export default function ContactPage() {
   useSeo({
-    title: "Contact Us | Kayo International Preschool",
+    title: "Contact Us | Kayo International Preschool Coimbatore",
     description:
-      "Contact KAYO International preschool in Perungudi, Chennai. Call +91 98840 04650. Visit our campus at No.3, 1st Cross Street, Rajiv Nagar, Perungudi, Chennai - 600096. Enrolment open for 2025-26.",
+      "Visit Kayo International at Marutham Nagar, Saravanampatti, Coimbatore – 641035. Call +91 93426 99339 for admissions or book a campus tour. Enrolment open for 2026-27.",
     schema: CONTACT_SCHEMA,
   });
 

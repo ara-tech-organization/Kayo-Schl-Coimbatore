@@ -10,19 +10,14 @@ export default function PoliciesCTA() {
           <span className="eyebrow">We Are Here to Help</span>
           <h2>Have Questions About Our Policies?</h2>
           <p>
-            We understand that reading about policies is helpful, but sometimes you simply want to
-            speak with a real person who can address your specific concerns. Whether you would
-            like clarification on our preschool health and safety procedures, want to discuss your
-            child&rsquo;s individual needs, or are ready to explore enrollment, our friendly team
-            is here to assist you.
-          </p>
-          <p>
-            Every family is welcome to visit our centre, meet our qualified educators, and see our
-            preschool safety policies in action. There is no substitute for experiencing firsthand
-            the warm, secure environment we have created for our children.
+            Policies on a page answer the general question; your child is a specific one. If
+            anything here needs clarifying — or your family&rsquo;s situation needs a conversation
+            rather than a paragraph — call us, or better, come to Marutham Nagar and see these
+            standards operating in real time. Watching a Kayo pickup verification or a mid-morning
+            handwash routine tells you more than any website can.
           </p>
 
-          <a href="tel:+919884004650" className="btn btn-primary pol-cta__call">
+          <a href="tel:+919342699339" className="btn btn-primary pol-cta__call">
             <Phone size={17} strokeWidth={2.2} /> Call Now
           </a>
         </Reveal>
@@ -43,15 +38,15 @@ export default function PoliciesCTA() {
                 <MapPin strokeWidth={1.8} />
               </span>
               <div>
-                <strong>No.3, 1st Cross Street, Rajiv Nagar, Perungudi, Chennai - 600096</strong>
+                <strong>No.14, 1C Marutham Nagar, Saravanampatti, Coimbatore - 641035</strong>
                 <p>Open for guided visits every day</p>
               </div>
             </div>
 
-            <a href="tel:+919884004650" className="pol-cta__phone">
+            <a href="tel:+919342699339" className="pol-cta__phone">
               <Phone size={16} strokeWidth={2} />
               <span>
-                Prefer to speak with us directly? Call <strong>+91 98840 04650</strong>
+                Prefer to speak with us directly? Call <strong>+91 93426 99339</strong>
               </span>
             </a>
           </div>

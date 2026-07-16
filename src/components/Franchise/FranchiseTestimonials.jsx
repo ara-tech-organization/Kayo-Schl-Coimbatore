@@ -8,18 +8,18 @@ const EASE = [0.16, 1, 0.3, 1];
 const TESTIMONIALS = [
   {
     quote:
-      "Partnering with Kayo International was the best decision I made for my entrepreneurial journey. The no-royalty model meant I could reinvest in my centre, and the support from the head office team has been exceptional. Within 18 months, I had not only recovered my investment but was operating a profitable, beloved preschool in my community.",
-    author: "Franchise Partner, Chennai",
+      "Partnering with Kayo International was the best decision I made for my entrepreneurial journey. The zero-royalty model meant I could reinvest in my centre, and the support from the head office team has been exceptional. Within 18 months, I had not only recovered my investment but was operating a profitable, beloved preschool in my community.",
+    author: "Franchise Partner, Coimbatore",
   },
   {
     quote:
       "What drew me to Kayo was their genuine commitment to quality education and their transparent business model. The NURTURE Lab curriculum is outstanding, parents trust the brand, and my centre now has a long waiting list. I am proud to be part of a brand that truly puts children first.",
-    author: "Franchise Partner, Tamil Nadu",
+    author: "Franchise Partner, Western Tamil Nadu",
   },
   {
     quote:
-      "Coming from a corporate background, I had no experience in education. Kayo's training and operational support gave me the confidence to launch and run my preschool successfully. The 2X ROI promise was not just marketing — it was my reality within the first two years.",
-    author: "Franchise Partner, South India",
+      "Coming from a corporate background, I had no experience in education. Kayo's training and operational support gave me the confidence to launch and run my preschool successfully. The zero-royalty economics were not just a promise — they were my reality from day one.",
+    author: "Franchise Partner, Tamil Nadu",
   },
 ];
 

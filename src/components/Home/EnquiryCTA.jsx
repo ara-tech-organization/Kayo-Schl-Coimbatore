@@ -20,10 +20,10 @@ export default function EnquiryCTA() {
           <span className="eyebrow">Book a Visit</span>
           <h2>Start Your Child's Journey Today</h2>
           <p>
-            Choosing the right preschool is one of the most important decisions you will make for
-            your child. We invite you to visit our Perungudi campus, meet our founder and
-            educators, explore our classrooms and play areas, and experience the warm, welcoming
-            atmosphere that makes Kayo International the best preschool in Chennai.
+            Choosing the right preschool is one of the most important decisions you'll make. Visit
+            our Saravanampatti campus, meet our founder and educators, explore our classrooms and
+            play areas, and experience the warm atmosphere that makes Kayo International the best
+            preschool in Saravanampatti.
           </p>
 
           <div className="enquiry__points">
@@ -33,7 +33,7 @@ export default function EnquiryCTA() {
               </span>
               <div>
                 <strong>Visit Our Campus</strong>
-                <p>No.3, 1st Cross Street, Rajiv Nagar, Perungudi, Chennai - 600096</p>
+                <p>Kayo International Preschool, Saravanampatti, Coimbatore</p>
               </div>
             </div>
             <div className="enquiry__point">
@@ -47,9 +47,9 @@ export default function EnquiryCTA() {
             </div>
           </div>
 
-          <a href="tel:+919884004650" className="enquiry__call">
+          <a href="tel:+919342699339" className="enquiry__call">
             <Phone size={18} strokeWidth={2} />
-            Prefer to speak with us directly? Call <strong>+91 98840 04650</strong>
+            Prefer to speak with us directly? Call <strong>+91 93426 99339</strong>
           </a>
         </Reveal>
 

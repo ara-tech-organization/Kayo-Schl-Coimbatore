@@ -19,27 +19,27 @@ const POLICIES = [
   {
     icon: DoorOpen,
     title: "Settling-in Policy",
-    text: "We request parents to stay with their child during the initial settling-in period to ensure a smooth, comfortable transition into the preschool environment.",
+    text: "New children are eased in gradually, with a parent present in the early days, so the first memory of school is comfort rather than tears.",
   },
   {
     icon: HeartPulse,
     title: "Health Policy",
-    text: "Detailed protocols for maintaining hygiene, preventing infection spread, and managing illness — including our hand-washing routines, sanitisation practices, and first-aid preparedness.",
+    text: "The full hygiene protocol — sanitisation routines, illness handling, handwashing discipline, and first-aid readiness — written down and followed.",
   },
   {
     icon: UserCheck,
     title: "Children Collection Policy",
-    text: "Clear guidelines for safe pickup procedures to ensure every child leaves our premises only in the care of authorised individuals.",
+    text: "Exactly who may collect your child, how identity is verified, and why we never make exceptions.",
   },
   {
     icon: MessageSquareWarning,
     title: "Comments & Complaints",
-    text: "A transparent process for raising concerns, with a commitment to resolution within 5 working days.",
+    text: "How to raise a concern, and our commitment to a resolution within 5 working days.",
   },
   {
     icon: Smile,
     title: "Behaviour Management",
-    text: "Our compassionate, age-appropriate approach to supporting children through behavioural challenges.",
+    text: "The positive-guidance approach our educators use, and the practices we prohibit outright.",
   },
 ];
 
@@ -54,11 +54,12 @@ export default function FamilyConnectResources() {
           title="Parent Resources"
           description={
             <>
-              We encourage all families to review our{" "}
+              Nothing about how we run is hidden. Our{" "}
               <Link to="/policies" className="fc-resources__policy-link">
                 Kayo Policies page
-              </Link>
-              , which outlines important guidelines across several key areas.
+              </Link>{" "}
+              spells out the rules we hold ourselves to, and we ask every family to read them
+              before enrolment.
             </>
           }
         />
@@ -110,9 +111,9 @@ export default function FamilyConnectResources() {
               </span>
               <h3>Parent Handbook</h3>
               <p>
-                Every enrolled family receives a detailed parent handbook covering everything from
-                daily routines and uniform guidelines to celebration policies and emergency
-                procedures.
+                On enrolment, every family receives the complete handbook: daily schedules,
+                uniform and meal guidelines, celebration norms, emergency procedures — the entire
+                operating manual of your child&rsquo;s school life in one place.
               </p>
             </Reveal>
 
@@ -122,9 +123,9 @@ export default function FamilyConnectResources() {
               </span>
               <h3>Regular Updates on Policy Changes</h3>
               <p>
-                Whenever we update our curriculum, policies, or procedures, we ensure all families
-                are informed through the appropriate communication channels. We welcome questions
-                and feedback at any time.
+                When anything material changes — curriculum, policy, procedure — you hear it from
+                us first, through official channels, with room to ask questions. No surprises
+                discovered at the gate.
               </p>
             </Reveal>
           </div>

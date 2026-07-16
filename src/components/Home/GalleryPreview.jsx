@@ -16,13 +16,16 @@ import { Link } from "react-router-dom";
 import SectionHeading from "../common/SectionHeading";
 import ArtPanel from "../common/ArtPanel";
 import "./GalleryPreview.css";
+import classroomImg from "../../assets/classroom.png";
 import outdoorImg from "../../assets/Outdoor.png";
 import stemImg from "../../assets/STEM Activit.png";
+import theatreImg from "../../assets/Theatre.png";
 
 const IMAGES = [
   {
     tone: "primary",
     icon: Puzzle,
+    image: classroomImg,
     caption: "Montessori Classroom",
     alt: "Montessori-themed classroom at Kayo International Preschool with child-friendly learning materials",
   },
@@ -31,18 +34,19 @@ const IMAGES = [
     icon: TreePine,
     image: outdoorImg,
     caption: "Outdoor Play Area",
-    alt: "Spacious outdoor play area with sandpit and splash pool at Kayo International Preschool Perungudi",
+    alt: "Spacious outdoor play area with sandpit and splash pool at Kayo International Preschool Saravanampatti",
   },
   {
     tone: "gold",
     icon: FlaskConical,
     image: stemImg,
     caption: "STEM Activities",
-    alt: "Children engaged in STEM learning activities at Kayo International Preschool Chennai",
+    alt: "Children engaged in STEM learning activities at Kayo International Preschool Saravanampatti",
   },
   {
     tone: "orange",
     icon: Drama,
+    image: theatreImg,
     caption: "Kayo Little Theatre",
     alt: "Students performing at Kayo Little Theatre, fostering confidence and creativity",
   },
@@ -145,7 +149,7 @@ export default function GalleryPreview() {
           align="left"
           eyebrow="A Glimpse Inside"
           title="Gallery"
-          description="Take a glimpse into the joyful learning experiences at Kayo International. From engaging classroom activities and creative play to celebrations and everyday milestones, our gallery reflects the safe, vibrant, and nurturing environment where children learn, grow, and thrive."
+          description="Take a peek into the joyful learning moments at Kayo International. From hands-on classroom activities and imaginative play to festive celebrations and everyday milestones, our gallery captures the safe, vibrant, nurturing environment where children learn, grow, and thrive."
         />
         <div className="gallery-preview__nav">
           <button

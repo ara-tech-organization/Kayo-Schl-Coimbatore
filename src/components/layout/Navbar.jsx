@@ -135,9 +135,9 @@ export default function Navbar() {
         </nav>
 
         <div className="navbar__actions">
-          <a href="tel:+919884004650" className="navbar__phone">
+          <a href="tel:+919342699339" className="navbar__phone">
             <Phone size={16} strokeWidth={2} />
-            <span>+91 98840 04650</span>
+            <span>+91 93426 99339</span>
           </a>
           <a href="#enquiry" className="btn btn-primary navbar__cta">
             Start Today
@@ -222,8 +222,8 @@ export default function Navbar() {
                   </NavLink>
                 )
               )}
-              <a href="tel:+919884004650" className="navbar__mobile-link">
-                <Phone size={16} /> +91 98840 04650
+              <a href="tel:+919342699339" className="navbar__mobile-link">
+                <Phone size={16} /> +91 93426 99339
               </a>
               <a href="#enquiry" className="btn btn-primary" onClick={() => setOpen(false)}>
                 Start Today

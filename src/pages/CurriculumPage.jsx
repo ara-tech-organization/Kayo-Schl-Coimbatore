@@ -21,9 +21,9 @@ const CURRICULUM_SCHEMA = {
 
 export default function CurriculumPage() {
   useSeo({
-    title: "Curriculum | Kayo International Preschool",
+    title: "Curriculum | Kayo International Preschool Coimbatore",
     description:
-      "Discover KAYO's NURTURE Lab curriculum, a unique blend of Montessori, STEM & play-based learning in Perungudi, Chennai. Enrol your child for holistic early education.",
+      "Discover KAYO's NURTURE Lab curriculum at our Montessori preschool in Coimbatore — a unique blend of Montessori, STEM & play-based learning in Saravanampatti. Enrol your child for holistic early education.",
     schema: CURRICULUM_SCHEMA,
   });
 

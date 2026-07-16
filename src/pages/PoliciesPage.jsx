@@ -10,9 +10,9 @@ import useSeo from "../hooks/useSeo";
 const POLICIES_SCHEMA = {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  name: "Policies | Kayo International Preschool",
+  name: "Policies | Kayo International Preschool Coimbatore",
   description:
-    "Discover KAYO INTERNATIONAL's comprehensive preschool safety policies in Chennai. Learn about our health standards, child protection, settling-in support & more.",
+    "Read the safety, health & child-protection policies at Kayo International Saravanampatti, Coimbatore — settling-in, collection protocol, prohibited practices & more, in plain language.",
   publisher: {
     "@type": "Preschool",
     name: "Kayo International Preschool and DayCare",
@@ -22,9 +22,9 @@ const POLICIES_SCHEMA = {
 
 export default function PoliciesPage() {
   useSeo({
-    title: "Policies | Kayo International Preschool",
+    title: "Policies | Kayo International Preschool Coimbatore",
     description:
-      "Discover KAYO INTERNATIONAL's comprehensive preschool safety policies in Chennai. Learn about our health standards, child protection, settling-in support & more.",
+      "Read the safety, health & child-protection policies at Kayo International Saravanampatti, Coimbatore — settling-in, collection protocol, prohibited practices & more, in plain language.",
     schema: POLICIES_SCHEMA,
   });
 

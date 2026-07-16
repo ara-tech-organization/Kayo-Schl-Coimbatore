@@ -10,22 +10,22 @@ const CHANNELS = [
   {
     icon: Phone,
     label: "Call Us",
-    value: "+91 98840 04650",
-    href: "tel:+919884004650",
+    value: "+91 93426 99339",
+    href: "tel:+919342699339",
     pos: "a",
   },
   {
     icon: MessageCircle,
     label: "WhatsApp",
     value: "Chat Instantly",
-    href: "https://wa.me/919884004650",
+    href: "https://wa.me/919342699339",
     pos: "b",
   },
   {
     icon: Mail,
     label: "Email",
-    value: "chnperungudi@kayointernational.in",
-    href: "mailto:chnperungudi@kayointernational.in",
+    value: "cbesaravanampatti@kayointernational.in",
+    href: "mailto:cbesaravanampatti@kayointernational.in",
     pos: "c",
   },
 ];
@@ -58,24 +58,23 @@ export default function ContactHero() {
 
           <span className="eyebrow">We'd Love to Hear From You</span>
 
-          <h1>Get in Touch With KAYO International</h1>
+          <h1>Get in Touch With KAYO International, Coimbatore</h1>
 
           <p className="contact-hero__lead">
-            At KAYO International, we believe that choosing the right preschool is one of the
-            most important decisions you will make for your child. That is why we encourage every
-            parent to reach out, ask questions, and visit our campus before making this decision.
-            We are here to provide all the information you need with warmth, honesty, and
-            transparency.
+            Every enrollment at Kayo begins the same way: with a conversation and a walk through
+            the campus. We would rather you ask twenty questions before joining than carry one
+            doubt after — so bring your questions, your in-laws, and your toddler. All three are
+            welcome.
           </p>
 
           <p className="contact-hero__lead">
-            You can contact KAYO International preschool by phone, email, WhatsApp, or by filling
-            out the quick enquiry form below. We typically respond to all enquiries within a few
-            hours during preschool hours.
+            Reach us however suits you, a phone call, a WhatsApp message, an email, or the form
+            below. During school hours, most enquiries hear back from us within a few hours; form
+            submissions receive a call from our admissions counsellor within one working day.
           </p>
 
           <div className="contact-hero__tag">
-            <Heart size={14} strokeWidth={2.4} /> Enrolment Open for 2025&ndash;26
+            <Heart size={14} strokeWidth={2.4} /> Enrolment Open for 2026&ndash;27
           </div>
         </motion.div>
 
@@ -87,7 +86,7 @@ export default function ContactHero() {
         >
           <img
             src={contactImg}
-            alt="Happy children at KAYO International Preschool, Perungudi"
+            alt="Happy children at KAYO International Preschool, Saravanampatti"
             className="contact-hero__image"
           />
 

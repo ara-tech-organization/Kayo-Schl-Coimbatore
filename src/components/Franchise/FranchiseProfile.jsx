@@ -14,33 +14,33 @@ import "./FranchiseProfile.css";
 const TRAITS = [
   {
     icon: HeartHandshake,
-    title: "Child-Focused",
-    text: "Passionate about children and genuinely invested in their wellbeing and development.",
+    title: "Child-First Motivation",
+    text: "You see the preschool as a service to families before you see it as a revenue line.",
   },
   {
     icon: Banknote,
-    title: "Financially Ready",
-    text: "Financially prepared to invest in setting up a premium preschool centre.",
+    title: "Financial Readiness",
+    text: "Capacity to fund a premium centre properly rather than cutting corners on what children touch.",
   },
   {
     icon: ShieldCheck,
-    title: "Quality-Committed",
-    text: "Committed to quality and willing to uphold Kayo's high standards for safety, hygiene, and education.",
+    title: "Standards Discipline",
+    text: "Willingness to run Kayo's safety, hygiene, and academic protocols exactly as designed.",
   },
   {
     icon: MapPinned,
-    title: "Locally Connected",
-    text: "Locally connected with good knowledge of their chosen neighbourhood or city.",
+    title: "Local Roots",
+    text: "You know your locality's families, landmarks, and rhythms better than any market report.",
   },
   {
     icon: Handshake,
-    title: "Business-Minded",
-    text: "Business-minded with the drive to grow a sustainable, profitable enterprise.",
+    title: "Builder's Ambition",
+    text: "The intent to grow a durable institution, not flip a quick venture.",
   },
   {
     icon: UserRoundCog,
-    title: "Hands-On Leader",
-    text: "Hands-on or willing to appoint a dedicated centre director for day-to-day operations.",
+    title: "Operational Presence",
+    text: "Hands-on involvement, or a dedicated centre director you trust with the day-to-day.",
   },
 ];
 
@@ -59,9 +59,9 @@ export default function FranchiseProfile() {
     <section className="fr-profile" id="profile">
       <div className="container">
         <SectionHeading
-          eyebrow="Who We're Looking For"
-          title="The Ideal Kayo Franchise Partner"
-          description="We seek franchise partners who share our passion for early childhood education and our commitment to excellence. Tap a card to see what matters most."
+          eyebrow="The Partner Profile"
+          title="Who We're Looking For"
+          description="We are selective, because every new centre carries the Kayo name into a neighbourhood of trusting parents. The partner profile we say yes to — tap a card to see what matters most."
         />
 
         <div className="fr-profile__cards">
@@ -104,9 +104,8 @@ export default function FranchiseProfile() {
 
         <Reveal y={18} delay={0.1} className="fr-profile__note">
           <p>
-            You do not need prior experience in education. What matters most is your dedication,
-            integrity, and willingness to follow a proven system while bringing your personal
-            touch to your centre.
+            Teaching experience is not on that list &mdash; deliberately. Our system supplies the
+            pedagogy; you supply the commitment and the community standing.
           </p>
         </Reveal>
       </div>

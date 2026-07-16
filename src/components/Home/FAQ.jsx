@@ -7,24 +7,24 @@ import "./FAQ.css";
 
 const FAQS = [
   {
-    q: "What makes Kayo International the best preschool in Chennai?",
-    a: "Kayo International stands out with over a decade of experience, a 4.9★ Google rating, and its exclusive NURTURE lab curriculum that combines Montessori, STEM, and holistic learning. Backed by award-winning excellence and expert leadership, we create a strong foundation for every child.",
+    q: "What makes Kayo International the best preschool in Saravanampatti?",
+    a: "Kayo International stands apart with over a decade of experience, a 4.9★ Google rating, and its signature NURTURE lab curriculum blending Montessori, STEM, and holistic learning.",
   },
   {
-    q: "What age groups do you admit at your preschool in Perungudi?",
-    a: "We welcome children aged 6 months to 12 years through our Day Care, Playgroup, Nursery, LKG, UKG, and After School programmes. Our age-specific learning approach supports every stage of your child's early development.",
+    q: "What age groups do you admit at your preschool in Saravanampatti?",
+    a: "We welcome children aged 6 months to 12 years through Day Care, Playgroup, Nursery, LKG, UKG, and After School programmes.",
   },
   {
     q: "How does Kayo International ensure child safety and parent communication?",
-    a: "We prioritise your child's safety with 24/7 CCTV surveillance, trained staff, strict hygiene practices, and secure facilities. Parents also receive regular SMS updates to stay informed about their child's daily activities and wellbeing.",
+    a: "Your child's safety comes first, with 24/7 CCTV surveillance, trained staff, strict hygiene practices, and regular SMS updates for parents.",
   },
   {
-    q: "Do you offer daycare facilities for working parents in OMR Chennai?",
-    a: "Yes, we provide a safe and nurturing daycare for children from 6 months onwards, ideal for working parents. Our programme includes supervised care, engaging activities, healthy meals, and dedicated rest time in a secure environment.",
+    q: "Do you offer daycare facilities for working parents in Saravanampatti?",
+    a: "Yes, we provide safe daycare for children from 6 months onward, with supervised care, engaging activities, healthy meals, and rest time.",
   },
   {
     q: "What curriculum does Kayo International follow?",
-    a: "Our NURTURE lab curriculum blends Montessori principles, STEM learning, play-based education, and Multiple Intelligence Theory. This balanced approach helps children grow academically, socially, emotionally, and creatively while preparing them for future learning.",
+    a: "Our NURTURE lab curriculum blends Montessori principles, STEM learning, play-based education, and Multiple Intelligence Theory.",
   },
 ];
 

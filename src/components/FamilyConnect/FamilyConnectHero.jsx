@@ -52,11 +52,11 @@ export default function FamilyConnectHero() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.75, delay: 0.16, ease: EASE }}
         >
-          At Kayo International, we believe that parents and families are the most important
-          partners in every child&rsquo;s learning journey. With over 10 years of expertise in
-          early childhood education and a 4.9-star rating from more than 1,000 happy families, we
-          have built a nurturing community where parents are never spectators — they are active
-          participants in their child&rsquo;s growth and development.
+          There is a version of preschool where the gate closes at drop-off and the parent&rsquo;s
+          knowledge of the day ends there. Kayo International was built as the refusal of that
+          version. From our founding in 2013, one design principle has held across every campus:
+          the family is inside the circle, always — informed daily, welcomed physically, and
+          treated as the co-author of the child&rsquo;s growth.
         </motion.p>
 
         <motion.p
@@ -65,10 +65,10 @@ export default function FamilyConnectHero() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.75, delay: 0.22, ease: EASE }}
         >
-          Research consistently shows that when families are involved in preschool education,
-          children develop stronger social skills, higher self-confidence, and better academic
-          outcomes. That is why we have designed our Family Connect programme to be one of the
-          most comprehensive parent involvement preschool Chennai has to offer.
+          This matters doubly in Saravanampatti, where many of our parents spend their working
+          hours at desks in the IT corridor, physically minutes away yet unable to drop in.
+          Family Connect is our answer: a deliberate system of updates, events, and open channels
+          that closes the distance between your workday and your child&rsquo;s school day.
         </motion.p>
 
         <motion.div

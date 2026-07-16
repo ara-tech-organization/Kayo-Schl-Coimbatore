@@ -21,49 +21,49 @@ const INTELLIGENCES = [
     icon: BookOpenText,
     tag: "Word Smart",
     title: "Verbal-Linguistic",
-    text: "Storytelling circles, phonics, vocabulary games, show-and-tell and poetry recitation build strong language skills in children who learn best through words.",
+    text: "Storytelling circles, phonics, vocabulary games, show-and-tell, and poetry recitation help build strong language abilities in children who learn best through words.",
   },
   {
     icon: Calculator,
     tag: "Number Smart",
     title: "Logical-Mathematical",
-    text: "Sorting activities, pattern games, building challenges and Montessori maths materials develop reasoning and problem-solving in children who think logically.",
+    text: "Sorting activities, pattern games, building challenges, and Montessori maths materials sharpen reasoning and problem-solving in children who think in logical sequences.",
   },
   {
     icon: Shapes,
     tag: "Picture Smart",
     title: "Visual-Spatial",
-    text: "Arty Crafty sessions, block building, puzzles and drawing activities let children express themselves visually through colour, shape and design.",
+    text: "Arty Crafty sessions, block building, puzzles, and drawing activities give children room to express themselves visually through colour, shape, and design.",
   },
   {
     icon: Music,
     tag: "Music Smart",
     title: "Musical-Rhythmic",
-    text: "Music and movement sessions, rhythmic activities, instruments, and our Bharatanatyam and Western Dance programmes develop a natural feel for melody and rhythm.",
+    text: "Music and movement sessions, rhythmic activities, instruments, and our Bharatanatyam and Western Dance programmes cultivate a natural sense of melody and rhythm.",
   },
   {
     icon: PersonStanding,
     tag: "Body Smart",
     title: "Bodily-Kinesthetic",
-    text: "Outdoor play, yoga, Kayo Sports, sandpit, splash pool and climbing equipment give active learners endless ways to explore through movement.",
+    text: "Outdoor play, yoga, Kayo Sports, sandpit, splash pool, and climbing equipment offer active learners countless ways to explore through movement.",
   },
   {
     icon: Users,
     tag: "People Smart",
     title: "Interpersonal",
-    text: "Group projects, collaborative games, circle time and empathy-building exercises help children develop strong social skills and meaningful relationships.",
+    text: "Group projects, collaborative games, circle time, and empathy-building exercises help children build strong social skills and meaningful relationships.",
   },
   {
     icon: UserCircle,
     tag: "Self Smart",
     title: "Intrapersonal",
-    text: "Reflection time, emotional coaching, mindfulness practices and freedom of choice help children understand themselves and manage their emotions confidently.",
+    text: "Reflection time, emotional coaching, mindfulness practices, and freedom of choice help children understand themselves and manage their emotions with confidence.",
   },
   {
     icon: Leaf,
     tag: "Nature Smart",
     title: "Naturalist",
-    text: "Nature walks, gardening, outdoor learning spaces and environmental projects connect children who are drawn to the natural world around them.",
+    text: "Nature walks, gardening, outdoor learning spaces, and environmental projects connect children who feel a strong pull toward the natural world.",
   },
 ];
 
@@ -77,7 +77,7 @@ export default function IntelligencesRail() {
         <SectionHeading
           eyebrow="Multiple Intelligence Theory"
           title="Nurturing Every Child's Unique Gifts"
-          description="Howard Gardner's Multiple Intelligence Theory tells us that every child is smart in their own unique way. At KAYO INTERNATIONAL, we celebrate this by nurturing all eight intelligences in every child, because true learning happens when education sees the whole child, not just one side."
+          description="Howard Gardner's Multiple Intelligence Theory reminds us that intelligence takes many forms, and every child shines in their own way. At KAYO INTERNATIONAL's Saravanampatti campus, we nurture all eight intelligences in every child, because genuine learning happens only when education embraces the whole child, not a single dimension of them."
         />
 
         <div className="mi-showcase__layout">
@@ -128,8 +128,9 @@ export default function IntelligencesRail() {
 
         <Reveal y={20} delay={0.15} className="mi-showcase__closing">
           <p>
-            By nurturing all eight intelligences, we ensure every child at KAYO INTERNATIONAL finds
-            their strength, builds confidence and discovers their own path to excellence.
+            By nurturing all eight intelligences, we build genuine social-emotional learning
+            alongside academics, so every child at KAYO INTERNATIONAL discovers their strength,
+            grows in confidence, and finds their own path to excellence.
           </p>
         </Reveal>
       </div>

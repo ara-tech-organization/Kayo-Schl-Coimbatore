@@ -34,7 +34,7 @@ function App() {
         element={
           <ComingSoonPage
             title="Gallery Coming Soon"
-            blurb="Our full photo gallery is being curated. In the meantime, browse the highlights on our Home page or visit our Perungudi campus in person."
+            blurb="Our full photo gallery is being curated. In the meantime, browse the highlights on our Home page or visit our Saravanampatti campus in person."
           />
         }
       />

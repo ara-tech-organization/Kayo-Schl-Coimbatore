@@ -19,14 +19,14 @@ const FRANCHISE_SCHEMA = {
     name: "Kayo International Preschool and DayCare",
     sameAs: "https://www.kayointernational.in/",
   },
-  areaServed: ["Chennai", "Tamil Nadu", "South India"],
+  areaServed: ["Coimbatore", "Western Tamil Nadu", "Tamil Nadu"],
 };
 
 export default function FranchisePage() {
   useSeo({
     title: "Franchise | Kayo International Preschool",
     description:
-      "Explore a rewarding preschool franchise opportunity in India with Kayo International. No royalty fees, 2X ROI potential & complete support. Enquire now for Chennai & Tamil Nadu.",
+      "Explore a preschool franchise opportunity in Coimbatore & Western Tamil Nadu with Kayo International. Zero royalty model, proven NURTURE Lab curriculum, end-to-end launch support. Enquire today.",
     schema: FRANCHISE_SCHEMA,
   });
 

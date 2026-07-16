@@ -20,18 +20,19 @@ function FacebookIcon(props) {
 function InstagramIcon(props) {
   return (
     <svg viewBox="0 0 48 48" aria-hidden="true" {...props}>
+      <circle cx="24" cy="24" r="24" fill="currentColor" />
       <rect
-        x="8"
-        y="8"
-        width="32"
-        height="32"
-        rx="9"
+        x="12"
+        y="12"
+        width="24"
+        height="24"
+        rx="7"
         fill="none"
-        stroke="currentColor"
-        strokeWidth="3.2"
+        stroke="#fff"
+        strokeWidth="3"
       />
-      <circle cx="24" cy="24" r="7.2" fill="none" stroke="currentColor" strokeWidth="3.2" />
-      <circle cx="33.2" cy="14.8" r="2.3" fill="currentColor" />
+      <circle cx="24" cy="24" r="5.8" fill="none" stroke="#fff" strokeWidth="3" />
+      <circle cx="31" cy="17" r="1.9" fill="#fff" />
     </svg>
   );
 }
@@ -39,9 +40,9 @@ function InstagramIcon(props) {
 function YouTubeIcon(props) {
   return (
     <svg viewBox="0 0 48 48" aria-hidden="true" {...props}>
-      <circle cx="24" cy="24" r="20" fill="#fff" />
-      <rect x="11" y="13" width="26" height="22" rx="6" fill="currentColor" />
-      <path fill="#fff" d="M21 19.5v9l8-4.5-8-4.5Z" />
+      <circle cx="24" cy="24" r="24" fill="currentColor" />
+      <rect x="12" y="15" width="24" height="18" rx="5" fill="#fff" />
+      <path fill="currentColor" d="M21 19.5v9l8-4.5-8-4.5Z" />
     </svg>
   );
 }
@@ -77,8 +78,8 @@ export default function Footer() {
         <div className="footer__brand">
           <img src={logo} alt="Kayo International Preschool" className="footer__logo" />
           <p>
-            A warm, stimulating home for children aged 6 months to 12 years in Perungudi,
-            Chennai &mdash; trusted by 1,000+ families for over a decade.
+            A warm, nurturing home for children aged 6 months to 12 years in Saravanampatti,
+            Coimbatore &mdash; trusted by 1,000+ families for over a decade.
           </p>
           <div className="footer__social">
             {SOCIAL_LINKS.map((link) => (
@@ -117,15 +118,15 @@ export default function Footer() {
           <h4>Visit Us</h4>
           <span>
             <MapPin size={17} strokeWidth={1.8} />
-            No.3, 1st Cross Street, Rajiv Nagar, Perungudi, Chennai - 600096
+            No.14, 1C Marutham Nagar, Saravanampatti, Coimbatore - 641035
           </span>
-          <a href="tel:+919884004650">
+          <a href="tel:+919342699339">
             <Phone size={17} strokeWidth={1.8} />
-            +91 98840 04650
+            +91 93426 99339
           </a>
-          <a href="mailto:chnperungudi@kayointernational.in">
+          <a href="mailto:cbesaravanampatti@kayointernational.in">
             <Mail size={17} strokeWidth={1.8} />
-            chnperungudi@kayointernational.in
+            cbesaravanampatti@kayointernational.in
           </a>
         </div>
       </div>
@@ -133,7 +134,7 @@ export default function Footer() {
       <div className="footer__bottom">
         <div className="container footer__bottom-inner">
           <span>&copy; {new Date().getFullYear()} Kayo International Preschool &amp; DayCare. All rights reserved.</span>
-          <span>Perungudi &middot; Nanmangalam &middot; Pallikaranai &middot; Palavakkam &middot; Taramani</span>
+          <span>Heart crafted by Ara Sisover Technology</span>
         </div>
       </div>
     </footer>

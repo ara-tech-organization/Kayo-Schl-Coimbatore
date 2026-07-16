@@ -58,11 +58,11 @@ export default function PoliciesHero() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.75, delay: 0.16, ease: EASE }}
           >
-            At KAYO INTERNATIONAL, we believe every parent deserves complete clarity about how we
-            care for their children. Over the past decade, we have earned the trust of Chennai
-            families by placing child safety, hygiene, and open communication at the centre of
-            everything we do. Our policies are designed to exceed parent expectations — creating a
-            secure environment where children explore, learn, and grow with confidence.
+            Trust between a preschool and a parent cannot rest on smiles at the gate; it needs
+            written rules, consistently enforced, open for any parent to read. Everything below is
+            exactly how our Saravanampatti campus operates every day — the same standards that
+            have governed Kayo International since 2013, published in plain language because
+            families deserve clarity, not fine print.
           </motion.p>
 
           <motion.div
@@ -71,7 +71,7 @@ export default function PoliciesHero() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.75, delay: 0.24, ease: EASE }}
           >
-            <a href="tel:+919884004650" className="btn btn-primary">
+            <a href="tel:+919342699339" className="btn btn-primary">
               <Phone size={17} strokeWidth={2.2} /> Call Now
             </a>
             <a href="#policies" className="pol-hero__jump">
@@ -146,7 +146,7 @@ export default function PoliciesHero() {
             </span>
             <span>
               <strong>4.9★ Rated</strong>
-              <span>By Chennai families</span>
+              <span>By Coimbatore families</span>
             </span>
           </motion.div>
 

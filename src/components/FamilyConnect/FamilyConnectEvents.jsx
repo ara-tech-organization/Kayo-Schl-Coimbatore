@@ -55,7 +55,7 @@ export default function FamilyConnectEvents() {
         <SectionHeading
           eyebrow="Celebrating Together, All Year Round"
           title="Family Events Calendar"
-          description="Building a strong sense of community is at the heart of everything we do at Kayo International. Throughout the year, we host a variety of family events preschool Perungudi families look forward to, creating cherished memories and meaningful connections among our school community."
+          description="Community is not a slogan on our wall; it is a calendar. Across the year, families gather at the campus for celebrations that children rehearse for, parents plan around, and everyone remembers — the shared moments that turn a school into a second family."
         />
       </div>
 

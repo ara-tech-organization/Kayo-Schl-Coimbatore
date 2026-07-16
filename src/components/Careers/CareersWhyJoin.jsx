@@ -13,7 +13,7 @@ const REASONS = [
   {
     icon: ShieldCheck,
     title: "10+ Years of Trusted Excellence",
-    text: "Join a preschool with over a decade of proven results and genuine trust from families across Chennai.",
+    text: "Join a preschool with over a decade of proven results and genuine trust from families across Coimbatore.",
     tone: "secondary",
   },
   {
@@ -49,7 +49,7 @@ export default function CareersWhyJoin() {
         <SectionHeading
           eyebrow="Why Team Kayo"
           title="A Preschool Career Where You Are Valued"
-          description="From Perungudi to every corner of OMR, Team Kayo is built on the belief that great educators deserve a school that genuinely supports them."
+          description="From Saravanampatti to every corner of Kovai, Team Kayo is built on the belief that great educators deserve a school that genuinely supports them."
         />
 
         <div className="cr-why__rail">

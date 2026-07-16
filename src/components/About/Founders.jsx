@@ -15,14 +15,14 @@ const FOUNDERS = [
     icon: GraduationCap,
     tone: "secondary",
     image: veenaImg,
-    alt: "Veena Sundaramurthy, founder of Kayo International Preschool, with children in classroom at Perungudi Chennai centre",
+    alt: "Veena Sundaramurthy, founder of Kayo International Preschool, with children in classroom at Saravanampatti Coimbatore centre",
     tags: ["Early Childhood Education", "Child Psychology", "NURTURE Lab Curriculum"],
     quote:
-      "Every child deserves a nurturing space where they feel secure, inspired, and encouraged to reach their full potential.",
+      "Every child deserves a nurturing space to feel secure, inspired, and supported in reaching their full potential.",
     bio: [
-      "Veena Sundaramurthy, M.A. is the Founder and Director of Kayo International, bringing over a decade of experience in early childhood education. Her qualifications in Early Childhood Education and Child Psychology, along with her role as the creator of the NURTURE Lab Curriculum, reflect her commitment to holistic child development.",
-      "Her unique blend of analytical thinking from the corporate world and genuine passion for education has shaped every aspect of Kayo International — from curriculum design and teacher training to creating a safe, engaging, and child-centred learning environment.",
-      "As an educator, curriculum developer, and parent, Veena believes every child deserves a nurturing space where they feel secure, inspired, and encouraged to reach their full potential.",
+      "Veena Sundaramurthy, M.A., serves as Founder and Director of Kayo International, with more than ten years dedicated to early childhood education. Her background in Early Childhood Education and Child Psychology, combined with her authorship of the NURTURE Lab Curriculum, showcases her deep commitment to raising well-rounded children.",
+      "Blending sharp analytical instincts honed in the corporate world with a genuine love for teaching, Veena has personally shaped every part of Kayo International, from how the curriculum is built and teachers are trained, to how each classroom feels safe, engaging, and centred on the child.",
+      "As an educator, curriculum creator, and mother, Veena holds firmly to the belief that every child deserves a nurturing space to feel secure, inspired, and supported in reaching their full potential. This belief remains the guiding force behind Kayo International's approach to early learning.",
     ],
   },
   {
@@ -34,11 +34,11 @@ const FOUNDERS = [
     alt: "Sankara K, co-founder of Kayo International Preschool",
     tags: ["Bits Pilani", "EdTech Strategy", "Growth & Operations"],
     quote:
-      "I partner with school leaders and help them think bigger — turning ambitious goals into reality.",
+      "My time at Bits Pilani ignited a mission that's stayed with me ever since: bringing technology and education together to rethink how schools can grow and succeed.",
     bio: [
-      "My journey from Bits Pilani sparked a lifelong mission: merging education with technology to reimagine how schools grow and thrive. That curiosity has never faded — it's what gets me up every morning.",
-      "I spend my days building and testing bold, forward-thinking education solutions that help schools hit their goals, not just academically, but as businesses too. Scouting new opportunities is a big part of that — digging into markets, spotting trends, and staying a step ahead of what's happening across the industry.",
-      "At the heart of it, my role is simple: I partner with school leaders and help them think bigger. Whether it's cracking a tough strategic problem or mapping out the next phase of growth, I'm there to help turn ambitious goals into reality.",
+      "My time at Bits Pilani ignited a mission that's stayed with me ever since: bringing technology and education together to rethink how schools can grow and succeed. That spark of curiosity is still what drives me forward each day.",
+      "Most of my time goes into designing and refining ambitious, future-focused education solutions that help schools succeed, not only in the classroom, but as sustainable businesses. A key part of that work involves exploring new opportunities, studying markets, tracking emerging trends, and staying ahead of shifts across the industry.",
+      "At its core, my job comes down to one thing: partnering with school leaders and helping them dream bigger. Whether it's solving a difficult strategic challenge or charting the next stage of growth, I'm there to help turn big ambitions into reality.",
     ],
   },
 ];

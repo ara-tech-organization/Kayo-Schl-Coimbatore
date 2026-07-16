@@ -9,28 +9,42 @@ import useSeo from "../hooks/useSeo";
 const CAREERS_SCHEMA = {
   "@context": "https://schema.org",
   "@type": "JobPosting",
-  title: "Preschool Teacher & Staff Careers",
+  title: "Preschool Teacher",
+  description:
+    "Teach the proprietary NURTURE Lab curriculum at Kayo International's Saravanampatti, Coimbatore campus. Structured induction, founder-led training, and clear growth paths for early childhood educators.",
   hiringOrganization: {
-    "@type": "Preschool",
+    "@type": "Organization",
     name: "Kayo International Preschool and DayCare",
-    sameAs: "https://www.kayointernational.in/",
+    sameAs: "https://kayointernational.in",
   },
   jobLocation: {
     "@type": "Place",
     address: {
       "@type": "PostalAddress",
-      addressLocality: "Perungudi, Chennai",
+      streetAddress: "No.14, 1C Marutham Nagar, Saravanampatti",
+      addressLocality: "Coimbatore",
       addressRegion: "Tamil Nadu",
+      postalCode: "641035",
       addressCountry: "IN",
     },
+  },
+  employmentType: "FULL_TIME",
+  qualifications: "Bachelor's degree in Early Years Education or equivalent",
+  industry: "Early Childhood Education",
+  datePosted: "2026-07-08",
+  validThrough: "2026-12-31",
+  applicationContact: {
+    "@type": "ContactPoint",
+    contactType: "Recruitment",
+    availableLanguage: ["English", "Tamil"],
   },
 };
 
 export default function CareersPage() {
   useSeo({
-    title: "Careers | Kayo International",
+    title: "Careers | Kayo International Coimbatore",
     description:
-      "Explore preschool teacher jobs in Chennai at Kayo International. We're hiring passionate early childhood educators for our Perungudi centre. Apply today and grow with us!",
+      "Preschool teacher jobs in Coimbatore — join Kayo International's Saravanampatti campus. Founder-led training, respectful culture, real career growth for early childhood educators.",
     schema: CAREERS_SCHEMA,
   });
 

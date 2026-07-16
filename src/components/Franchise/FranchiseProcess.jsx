@@ -22,51 +22,55 @@ const STEPS = [
   {
     icon: MessageSquare,
     title: "Enquiry With KAYO",
-    text: "Submit your franchise enquiry and share your details, interests, and preferred location with our team.",
+    text: "Tell us who you are, where you want to build, and what draws you to early education.",
   },
   {
     icon: Users2,
     title: "Meeting with a KAYO Representative",
-    text: "Connect with our franchise representative to discuss your goals, understand the process, and get answers to your queries.",
+    text: "A frank conversation about the model, the market, and whether we fit each other.",
   },
   {
     icon: MapPinned,
     title: "Finalizing the Location",
-    text: "Work with our team to identify and finalise the ideal location for setting up your Kayo International preschool.",
+    text: "We evaluate your proposed sites against catchment data and Kayo's location criteria.",
   },
   {
     icon: FileSignature,
     title: "Agreement Signing",
-    text: "Complete the franchise agreement process and begin your journey towards establishing your own Kayo centre.",
+    text: "Terms on paper, transparently — including everything the no-royalty model does and does not cover.",
   },
   {
     icon: Sparkles,
     title: "Preschool Setup & Registration",
-    text: "Receive guidance on infrastructure setup, branding, registrations, and other essential launch requirements.",
+    text: "Fit-out, branding, statutory registrations, and pre-launch checklists, guided end to end.",
   },
   {
     icon: BookOpenCheck,
     title: "Administrative & Teaching Training",
-    text: "Get comprehensive training and support for managing operations, administration, and delivering quality early education.",
+    text: "Your team learns the NURTURE Lab curriculum and Kayo's operating routines before day one.",
   },
   {
     icon: Rocket,
     title: "Launch of Your Own School",
-    text: "Open your Kayo International preschool with complete support and start your journey as a successful preschool entrepreneur.",
+    text: "Doors open with our launch-marketing support — and the ongoing partnership begins.",
   },
 ];
 
 const LOCATIONS = [
-  "Chennai",
-  "OMR",
-  "Perungudi",
-  "Thoraipakkam",
-  "Sholinganallur",
-  "Velachery",
-  "Medavakkam",
-  "Kandanchavadi",
   "Coimbatore",
-  "Tamil Nadu",
+  "Saravanampatti",
+  "Kalapatti",
+  "Vadavalli",
+  "Singanallur",
+  "Peelamedu",
+  "Ramanathapuram",
+  "Kovaipudur",
+  "Thudiyalur",
+  "Tiruppur",
+  "Erode",
+  "Salem",
+  "Pollachi",
+  "Mettupalayam",
 ];
 
 export default function FranchiseProcess() {
@@ -90,7 +94,7 @@ export default function FranchiseProcess() {
       <div className="container">
         <SectionHeading
           eyebrow="Your Next Steps"
-          title="How to Apply"
+          title="Your Next Steps: How to Apply"
           description="Taking the first step towards owning your Kayo International preschool franchise is simple."
         />
 
@@ -168,10 +172,11 @@ export default function FranchiseProcess() {
           <div>
             <h3>Now Enrolling Franchise Partners In</h3>
             <p>
-              We currently invite enquiries for preschool franchise opportunities in Chennai,
-              across Tamil Nadu, and select cities in South India. Prime locations include
-              neighbourhoods along OMR, Perungudi, Thoraipakkam, Sholinganallur, Velachery,
-              Medavakkam, Kandanchavadi, Coimbatore, and other high-potential markets.
+              Current priority markets: Coimbatore and Western Tamil Nadu. Within the city —
+              Saravanampatti&rsquo;s surrounding corridors, Kalapatti, Vadavalli, Singanallur,
+              Peelamedu, Ramanathapuram, Kovaipudur, and Thudiyalur. Beyond it — Tiruppur, Erode,
+              Salem, Pollachi, and Mettupalayam, each with young-family demographics and thin
+              quality-preschool supply.
             </p>
             <div className="fr-process__chips">
               {LOCATIONS.map((loc) => (

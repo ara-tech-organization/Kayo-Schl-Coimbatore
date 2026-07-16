@@ -71,7 +71,7 @@ export default function CareersHero() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.75, delay: 0.08, ease: EASE }}
           >
-            Meaningful Preschool Teaching Careers in Chennai
+            Join Team Kayo — Meaningful Preschool Teaching Careers in Coimbatore
           </motion.h1>
 
           <motion.p
@@ -80,9 +80,12 @@ export default function CareersHero() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.75, delay: 0.16, ease: EASE }}
           >
-            If you have been searching for early childhood educator jobs on OMR, Montessori
-            teacher jobs in Chennai, or a preschool teaching career in Perungudi where you are
-            valued, supported, and inspired every single day, Team Kayo is waiting for you.
+            Coimbatore produces some of Tamil Nadu&rsquo;s finest teaching talent and too many of
+            its preschools treat that talent as replaceable. Kayo International runs on the
+            opposite conviction: the teacher is the curriculum&rsquo;s living edge, so investing
+            in teachers is investing in children. If you have been hunting for early childhood
+            educator roles in Saravanampatti or Montessori teaching positions anywhere in Kovai,
+            read on.
           </motion.p>
 
           <motion.p
@@ -91,8 +94,22 @@ export default function CareersHero() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.75, delay: 0.22, ease: EASE }}
           >
-            Join a preschool with 10+ years of trusted excellence, a 4.9★ Google rating, and a
-            founder-led culture that puts both children and educators first.
+            What working at our Saravanampatti campus actually looks like: structured induction
+            into the NURTURE Lab curriculum before you ever lead a class; continuous training
+            under founder-led academic direction; classrooms resourced properly so your energy
+            goes into children, not improvisation; and a culture where educators are consulted,
+            credited, and promoted from within.
+          </motion.p>
+
+          <motion.p
+            className="cr-hero__sub"
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.75, delay: 0.26, ease: EASE }}
+          >
+            Whether you are a fresh Early Years graduate, an experienced Montessori practitioner,
+            or a specialist in music, dance, sports, phonics, or art — there is a place on this
+            team where your craft will be taken seriously. Apply below.
           </motion.p>
 
           <motion.div

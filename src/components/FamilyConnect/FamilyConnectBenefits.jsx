@@ -19,7 +19,7 @@ const BENEFITS = [
   { icon: UtensilsCrossed, label: "Dining Area" },
   { icon: MapPinned, label: "Picnics & Field Trips" },
   { icon: Waves, label: "Sand Pit & Splash Pool" },
-  { icon: GlassWater, label: "R.O Purified Drinking Water" },
+  { icon: GlassWater, label: "R.O. Purified Drinking Water" },
   { icon: Bus, label: "Safe Transport Facility" },
   { icon: GraduationCap, label: "Graduation & Annual Sports Meet" },
 ];

@@ -16,7 +16,7 @@ const STRIP = [
   { icon: Award, value: "10+", label: "Years of Trust" },
   { icon: Users, value: "1,000+", label: "Children Nurtured" },
   { icon: Star, value: "4.9★", label: "Parent Rating" },
-  { icon: MapPin, value: "2", label: "Campuses — Chennai & Coimbatore" },
+  { icon: MapPin, value: "1", label: "Campus — Saravanampatti, Coimbatore" },
 ];
 
 export default function AboutHero() {
@@ -49,23 +49,23 @@ export default function AboutHero() {
           <h1>About Kayo International Preschool</h1>
 
           <p className="about-hero__lead">
-            Every parent wants to find a preschool that feels like a second home, a place where
-            their child is safe, nurtured, and inspired to explore the world with confidence. At
-            Kayo International Preschool and DayCare, we have spent over a decade making that
-            vision a reality for families across Chennai and Coimbatore.
+            Choosing the right preschool means finding a place where your child feels cared for,
+            encouraged, and free to discover the world at their own pace. For more than ten years,
+            Kayo International Preschool and DayCare has been building exactly that kind of
+            environment for families across Coimbatore and Chennai.
           </p>
 
           <p className="about-hero__lead">
-            Founded in 2013 by Veena Sundaramurthy, Kayo International was born from a deeply
-            personal calling: to create an early learning environment that truly puts children
-            first. What began as a heartfelt mission has grown into one of the most trusted
-            preschools in Perungudi, Chennai — a name parents actively seek when searching for the
-            best preschool founders in Chennai who bring both passion and professional expertise to
-            early childhood education.
+            Kayo International was established in 2013 by Veena Sundaramurthy, driven by a
+            heartfelt goal: to build an early learning space where children always come first.
+            That simple idea has since grown into one of the most trusted preschool names in
+            Saravanampatti, Coimbatore, a centre parents turn to when searching for founders who
+            bring genuine dedication and professional depth to early childhood education in
+            Coimbatore.
           </p>
 
           <div className="about-hero__tag">
-            <MapPin size={16} strokeWidth={2} /> Perungudi, Chennai OMR
+            <MapPin size={16} strokeWidth={2} /> Saravanampatti, Coimbatore
             <span className="about-hero__tag-dot" />
             <Heart size={14} strokeWidth={2.4} /> Since 2013
           </div>
@@ -83,7 +83,7 @@ export default function AboutHero() {
           <div className="about-hero__core">
             <img
               src={aboutHeroImg}
-              alt="Bright nurturing classroom environment at Kayo International Preschool and DayCare Chennai"
+              alt="Bright nurturing classroom environment at Kayo International Preschool and DayCare Coimbatore"
               className="about-hero__core-img"
             />
           </div>

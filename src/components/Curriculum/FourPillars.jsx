@@ -42,7 +42,7 @@ export default function FourPillars() {
         <SectionHeading
           eyebrow="Four Pillars, One Whole Child"
           title="What is the NURTURE Lab Curriculum?"
-          description="The NURTURE Lab curriculum is a proprietary, four-pillar educational framework exclusive to KAYO International. Unlike conventional preschool programmes that rely on rote memorisation and standardised worksheets, our curriculum embraces a child-centric philosophy where learning emerges naturally through curiosity, exploration and guided discovery."
+          description="The NURTURE Lab curriculum is a proprietary, four-pillar educational framework found only at KAYO International. Unlike traditional preschool programmes built around memorisation and standardised worksheets, our approach is rooted in a child-centric, child-first philosophy, where experiential learning unfolds naturally through curiosity, hands-on exploration, and guided discovery."
         />
 
         <p className="four-pillars__lead-in">The Four Pillars of NURTURE:</p>
@@ -79,11 +79,12 @@ export default function FourPillars() {
 
         <Reveal y={20} delay={0.15} className="four-pillars__closing">
           <p>
-            This four-pillar approach creates a Montessori STEM preschool curriculum, Chennai
-            families trust &mdash; one that develops the whole child: intellectually, emotionally,
-            socially, creatively and physically. Parents searching for the best preschool
-            curriculum Montessori STEM approach will find that our NURTURE framework offers a depth
-            and authenticity that stands apart from conventional early childhood programmes.
+            This four-pillar framework shapes a Montessori STEM preschool curriculum that
+            Coimbatore families rely on, one that nurtures the whole child intellectually,
+            emotionally, socially, creatively, and physically. Parents searching for the best
+            preschool curriculum with a Montessori STEM approach will find that our NURTURE
+            framework offers a level of depth and authenticity rarely found in conventional early
+            childhood programmes.
           </p>
         </Reveal>
       </div>

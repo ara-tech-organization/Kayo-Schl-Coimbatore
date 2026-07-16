@@ -6,17 +6,17 @@ import "./Testimonials.css";
 const TESTIMONIALS = [
   {
     quote:
-      "Kayo International is hands down the best preschool in Perungudi. My daughter has transformed from a shy toddler into a confident little speaker. The teachers are incredibly loving, and the daily updates give me so much peace of mind.",
+      "Kayo International is truly the best preschool in Saravanampatti. My daughter has grown from a shy toddler into a confident, chatty little girl. The teachers are so caring, and the daily updates give me such peace of mind.",
     source: "Parent, Google Review",
   },
   {
     quote:
-      "We enrolled our son in the daycare programme when he was just 11 months old. The staff treated him like family. The CCTV access and live monitoring made it so much easier for me to focus at work. I highly recommend this daycare in OMR Chennai!",
+      "We joined the daycare programme when our son was just 10 months old. The staff treated him like family. The CCTV access and constant updates made it so much easier to focus on work. I highly recommend this daycare in Coimbatore!",
     source: "Parent, Justdial Review",
   },
   {
     quote:
-      "The NURTURE Lab curriculum is truly unique. My child comes home excited about something new every day, whether it is a science experiment, a theatre performance, or a new song. Kayo has set the foundation for a lifetime of learning.",
+      "The NURTURE Lab curriculum is genuinely one of a kind. My child comes home excited about something new every day, whether it's a science experiment, a theatre act, or a new song. Kayo has built the foundation for a lifetime of learning.",
     source: "Parent, Facebook Review",
   },
 ];

@@ -6,32 +6,32 @@ import "./WhyChooseUs.css";
 const REASONS = [
   {
     icon: Award,
-    title: "A Decade of Trust and Excellence",
+    title: "Ten-Plus Years of Proven Excellence",
     text: "Over ten years of shaping confident learners, backed by 20+ awards in early childhood education.",
   },
   {
     icon: BookOpen,
-    title: "Expert-Led, Research-Based Curriculum",
+    title: "Curriculum Backed by Research and Experts",
     text: "Our NURTURE lab programme blends Montessori and STEM thinking, designed by qualified early-years educators.",
   },
   {
     icon: ShieldCheck,
-    title: "Safety and Transparency You Can Count On",
-    text: "24/7 CCTV monitoring, trained staff, and regular SMS updates keep you connected to your child's day.",
+    title: "Uncompromising Safety and Transparency",
+    text: "24/7 CCTV monitoring, trained staff, and regular SMS updates keep you connected to your child's day in a hygienic preschool environment.",
   },
   {
     icon: Trees,
-    title: "Spacious, Stimulating Environment",
+    title: "Bright, Spacious Learning Spaces",
     text: "Bright classrooms, sandpits, splash pools, and dedicated play zones built for curious little explorers.",
   },
   {
     icon: HeartHandshake,
-    title: "Experienced and Caring Educators",
+    title: "Compassionate, Experienced Educators",
     text: "Passionate teachers who treat every child as their own, nurturing confidence alongside curriculum.",
   },
   {
     icon: Sparkles,
-    title: "Holistic Learning for Every Child",
+    title: "Every Child's Growth, Holistically Nurtured",
     text: "From Multiple Intelligence Theory to theatre and STEM, we celebrate every child's unique strengths.",
   },
 ];
@@ -42,8 +42,8 @@ export default function WhyChooseUs() {
       <div className="container">
         <SectionHeading
           eyebrow="Why Families Choose Us"
-          title="Why Kayo International Is the Preferred Preschool in Perungudi"
-          description="Parents across Perungudi, Nanmangalam, Pallikaranai, Palavakkam, Kottivakkam, Taramani, Kandanchavadi, Thoraipakkam and Adambakkam — all within around 3 km — consistently choose Kayo International. Here's why."
+          title="Why is Kayo International the Preferred Preschool in Saravanampatti?"
+          description="Only the best will do for your child's first school. Families across Saravanampatti, Sathy Road, Punnathur, Vilankurichi, Keeranatham, Kalapatti, Cheran Ma Nagar and Chinnavedampatti, within roughly 3 km, consistently choose Kayo International — here's why."
         />
 
         <StaggerGroup className="why__grid">

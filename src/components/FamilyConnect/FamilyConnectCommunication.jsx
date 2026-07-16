@@ -31,7 +31,7 @@ export default function FamilyConnectCommunication() {
           align="center"
           eyebrow="Never Miss a Moment of Your Child's Day"
           title="Daily Communication"
-          description="Consistent, meaningful communication is the backbone of successful family engagement preschool programmes. At Kayo International, we ensure you are always informed about your child's daily experiences through multiple touchpoints designed for busy modern families."
+          description="Picture a Tuesday: you are in a sprint review on Sathy Road, and your phone quietly confirms that your daughter ate well, napped on schedule, and spent the morning building a block bridge taller than herself. That small certainty changes the texture of a working parent's entire day — and delivering it is a core Kayo service, not a courtesy. Our communication stack:"
         />
 
         <div className="fc-comm__grid">

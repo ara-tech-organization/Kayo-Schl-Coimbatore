@@ -5,6 +5,7 @@ import Programmes from "../components/Home/Programmes";
 import Curriculum from "../components/Home/Curriculum";
 import Testimonials from "../components/Home/Testimonials";
 import Ratings from "../components/Home/Ratings";
+import GalleryPreview from "../components/Home/GalleryPreview";
 import FAQ from "../components/Home/FAQ";
 import EnquiryCTA from "../components/Home/EnquiryCTA";
 import OurTeam from "../components/About/OurTeam";
@@ -13,9 +14,9 @@ import useSeo from "../hooks/useSeo";
 
 export default function HomePage() {
   useSeo({
-    title: "Best Preschool in Chennai | Kayo International Preschool",
+    title: "Best Preschool in Saravanampatti | Kayo International",
     description:
-      "Kayo International is the best preschool in Perungudi, Chennai. 10+ years, 4.9★ rating, NURTURE lab curriculum (Montessori + STEM). Book a school tour today!",
+      "Kayo International is the best preschool in Saravanampatti, Coimbatore — a Montessori preschool with 10+ years, 4.9★ rating, and our NURTURE Lab curriculum (Montessori + STEM). Schedule a visit today!",
   });
 
   return (
@@ -26,6 +27,7 @@ export default function HomePage() {
       <Curriculum />
       <Testimonials />
       <Ratings />
+      <GalleryPreview />
       <OurTeam
         imageSrc={homeTeamImage}
         imageAlt="Kayo International team engaging with families and children on campus"

@@ -18,8 +18,8 @@ export default function FranchiseEnquiryForm() {
           <span className="eyebrow">Enquire Now</span>
           <h2>Let&rsquo;s Grow Together</h2>
           <p>
-            Ready to build a rewarding business in early childhood education? Share your details
-            and our franchise team will reach out within 48 hours.
+            If early education is the business you want to be proud of in ten years, start the
+            conversation. Submit the form and our franchise team responds within 48 hours.
           </p>
 
           <div className="fr-enquiry__point">
@@ -32,9 +32,9 @@ export default function FranchiseEnquiryForm() {
             </div>
           </div>
 
-          <a href="tel:+919884004650" className="fr-enquiry__call">
+          <a href="tel:+919342699339" className="fr-enquiry__call">
             <Phone size={18} strokeWidth={2} />
-            Prefer to speak with us directly? Call <strong>+91 98840 04650</strong>
+            Prefer to speak with us directly? Call <strong>+91 93426 99339</strong>
           </a>
         </Reveal>
 
@@ -65,7 +65,7 @@ export default function FranchiseEnquiryForm() {
                 </div>
                 <label>
                   Preferred City / Location
-                  <input type="text" name="location" required placeholder="e.g. Chennai, OMR" />
+                  <input type="text" name="location" required placeholder="e.g. Coimbatore, Saravanampatti" />
                 </label>
                 <label>
                   Your Message

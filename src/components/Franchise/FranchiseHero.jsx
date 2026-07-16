@@ -9,7 +9,7 @@ const EASE = [0.16, 1, 0.3, 1];
 
 const HIGHLIGHTS = [
   { icon: ShieldCheck, label: "No Royalty Fees" },
-  { icon: TrendingUp, label: "2X ROI Potential" },
+  { icon: TrendingUp, label: "Proven Since 2013" },
   { icon: Award, label: "10+ Years Trusted Brand" },
 ];
 
@@ -44,7 +44,7 @@ export default function FranchiseHero() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, ease: EASE }}
         >
-          Franchise Opportunity in India
+          A Proven Preschool Franchise Opportunity in Coimbatore
         </motion.span>
 
         <motion.h1
@@ -62,12 +62,14 @@ export default function FranchiseHero() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.75, delay: 0.16, ease: EASE }}
         >
-          Are you an aspiring entrepreneur looking for a meaningful business venture in the rapidly
-          growing early childhood education sector? Kayo International welcomes passionate
-          individuals to join our expanding family through our preschool franchise opportunity in
-          India. With over a decade of trusted experience, a proven NURTURE Lab curriculum, and a
-          reputation built on genuine parent trust, we offer franchise partners a pathway to build
-          a successful, rewarding preschool business.
+          Western Tamil Nadu is quietly becoming one of India&rsquo;s most attractive
+          early-education markets. Coimbatore&rsquo;s IT and manufacturing payrolls keep
+          expanding, young families are settling across new residential corridors, and demand for
+          quality preschools is outrunning supply in locality after locality. Kayo International
+          offers entrepreneurs a way to meet that demand with substance behind the signboard: a
+          curriculum proven since 2013, operating systems refined across our campuses, and a
+          franchise model with a feature most competitors cannot match &mdash; no recurring
+          royalty.
         </motion.p>
 
         <motion.div

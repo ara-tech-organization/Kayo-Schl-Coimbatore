@@ -17,7 +17,7 @@ const PROGRAMMES = [
     age: "1.5 to 3 Years",
     title: "Playgroup",
     image: playgroupImg,
-    text: "Our gentle playgroup programme introduces toddlers to a structured yet joyful learning environment. Through sensory play, music, movement, and social interaction, your little one builds confidence, language skills, and early cognitive abilities — all while feeling safe and loved.",
+    text: "Our nurturing playgroup in Coimbatore introduces toddlers to a structured, joyful setting. Through sensory play, music, movement, and social interaction, your little one builds confidence, language, and early thinking skills, all while feeling safe and loved.",
   },
   {
     icon: PenTool,
@@ -25,7 +25,7 @@ const PROGRAMMES = [
     age: "3 to 4 Years",
     title: "Nursery",
     image: nurseryImg,
-    text: "In our nursery programme, children dive deeper into structured learning through the Montessori approach. Practical life skills, early numeracy, pre-writing activities, and language development form the core of this enriching year.",
+    text: "Children at our nursery school in Coimbatore progress into structured Montessori-based learning, building practical life skills, early numeracy, pre-writing, and language development as the foundation of this transformative year.",
   },
   {
     icon: BookOpenCheck,
@@ -33,7 +33,7 @@ const PROGRAMMES = [
     age: "4 to 5 Years",
     title: "LKG",
     image: lkgImg,
-    text: "Our LKG programme strengthens foundational literacy and numeracy through hands-on, play-based learning. Children explore science concepts, develop fine motor skills, and build the social confidence needed for formal schooling.",
+    text: "Our LKG programme builds literacy and numeracy through hands-on, play-based learning, helping children explore science concepts, build fine motor skills, and gain social confidence for formal schooling.",
   },
   {
     icon: Rocket,
@@ -41,7 +41,7 @@ const PROGRAMMES = [
     age: "5 to 6 Years",
     title: "UKG",
     image: ukgImg,
-    text: "The final preschool year at Kayo International ensures your child is fully prepared for primary school. Our UKG programme emphasises reading fluency, mathematical thinking, scientific curiosity, and independent learning — giving them a head start in life.",
+    text: "This final preschool year prepares children fully for primary school, focusing on reading fluency, mathematical reasoning, scientific curiosity, and independent learning.",
   },
   {
     icon: PuzzleIcon,
@@ -49,7 +49,7 @@ const PROGRAMMES = [
     age: "6 to 12 Years",
     title: "Primary Enrichment Programme",
     image: primaryImg,
-    text: "Our enrichment programme for 6 to 12 year olds keeps learning alive beyond the classroom. Through activity-based sessions, critical thinking exercises, and creative projects, children build communication, digital literacy, and problem-solving skills.",
+    text: "Learning stays alive beyond the classroom through activity-based sessions, critical thinking, and creative projects that build communication, digital literacy, and problem-solving skills.",
   },
   {
     icon: HomeIcon,
@@ -57,7 +57,7 @@ const PROGRAMMES = [
     age: "6 Months Onwards",
     title: "Day Care",
     image: dayCareImg,
-    text: "We understand the challenges of working parents. Our daycare in OMR Chennai provides a safe, nurturing home-away-from-home for babies as young as 6 months, with caring attendants, age-appropriate activities, nutritious meals, and restful nap times.",
+    text: "Our Montessori daycare in Saravanampatti offers a safe, home-away-from-home for babies as young as 6 months, with caring attendants, age-appropriate activities, nutritious meals, and restful nap times while parents are at work.",
   },
 ];
 
@@ -71,7 +71,7 @@ export default function Programmes() {
         <SectionHeading
           eyebrow="Early Learning Pathways"
           title="Our Programmes — Early Learning Pathways for Every Age"
-          description="At Kayo International, we believe learning begins from the very first day. That is why we offer a complete range of programmes designed to support your child at every stage of their early development."
+          description="At Kayo International, we believe every child learns differently, which is why we've built a complete range of experiential learning programmes to nurture your child at every stage."
         />
 
         <div className="programmes__panel">

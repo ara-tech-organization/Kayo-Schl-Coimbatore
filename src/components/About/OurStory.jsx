@@ -36,7 +36,7 @@ export default function OurStory() {
         <motion.img
           className="our-story__bg-image"
           src={ourStoryBg}
-          alt="Happy children engaged in Montessori STEM learning activities at Kayo International Preschool Chennai"
+          alt="Happy children engaged in Montessori STEM learning activities at Kayo International Preschool Coimbatore"
           style={{ y: bgY }}
         />
         <span className="our-story__bg-overlay" aria-hidden="true" />
@@ -54,28 +54,28 @@ export default function OurStory() {
           <div className="our-story__prose">
             <Reveal y={18} delay={0.14}>
               <p>
-                Kayo International was founded in 2013 by Veena Sundaramurthy, whose journey from
-                the IT industry to early childhood education was driven by a passion for shaping
-                young minds. With qualifications in Early Childhood Education from TESOL and a
-                Diploma in Child Psychology, she combined her expertise with a vision to create a
-                nurturing preschool where children learn with confidence, curiosity, and joy.
+                Veena Sundaramurthy founded Kayo International in 2013 after stepping away from a
+                career in the IT industry to pursue her true calling in early childhood education.
+                Holding an Early Childhood Education qualification from TESOL along with a Diploma
+                in Child Psychology, she brought together academic training and personal passion to
+                build a preschool where children grow with confidence, curiosity, and happiness.
               </p>
             </Reveal>
             <Reveal y={18} delay={0.2}>
               <p>
-                Committed to providing the best early learning experience, Veena developed the
-                proprietary NURTURE Lab Curriculum, blending Montessori principles with STEM-based,
-                play-led learning. Her continuous participation in educational workshops and
-                research ensures that Kayo International remains at the forefront of modern
-                preschool education.
+                Determined to offer the finest early learning experience possible, Veena designed
+                the signature NURTURE Lab Curriculum, a blend of Montessori foundations with
+                STEM-driven, play-centred learning. Her ongoing involvement in early education
+                research and workshops keeps Kayo International aligned with the newest thinking in
+                preschool pedagogy.
               </p>
             </Reveal>
             <Reveal y={18} delay={0.26}>
               <p>
-                Supported by a co-founder with an engineering and business background, Kayo
-                International is built on strong values of quality, transparency, and innovation.
-                Together, they have created a trusted learning environment that prepares children
-                for school and lifelong success.
+                Alongside a co-founder whose background spans engineering and business, Kayo
+                International stands on a foundation of quality, transparency, and forward-thinking
+                innovation. Together, they&rsquo;ve built a learning space families trust to prepare
+                their children for school and for life.
               </p>
             </Reveal>
           </div>

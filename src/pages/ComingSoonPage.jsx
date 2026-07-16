@@ -23,8 +23,8 @@ export default function ComingSoonPage({ title, blurb }) {
             <p>{blurb}</p>
           </Reveal>
           <Reveal delay={0.26}>
-            <a href="tel:+919884004650" className="btn btn-primary">
-              Call +91 98840 04650
+            <a href="tel:+919342699339" className="btn btn-primary">
+              Call +91 93426 99339
             </a>
           </Reveal>
         </div>

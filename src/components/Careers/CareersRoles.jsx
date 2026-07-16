@@ -13,7 +13,7 @@ export default function CareersRoles() {
       <div className="container">
         <SectionHeading
           eyebrow="Now Hiring"
-          title="Open Positions at Our Perungudi Campus"
+          title="Open Positions at Our Saravanampatti Campus"
           description="We are growing our teaching, activity, and administrative teams. Tap a role to apply."
         />
 

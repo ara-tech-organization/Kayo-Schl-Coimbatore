@@ -3,7 +3,7 @@ import SectionHeading from "../common/SectionHeading";
 import Reveal from "../common/Reveal";
 import "./ContactMap.css";
 
-const MAP_QUERY = "No.3, 1st Cross Street, Rajiv Nagar, Perungudi, Chennai 600096";
+const MAP_QUERY = "No.14, 1C Marutham Nagar, Saravanampatti, Coimbatore 641035";
 const MAP_SRC = `https://www.google.com/maps?q=${encodeURIComponent(MAP_QUERY)}&output=embed`;
 const DIRECTIONS_URL = `https://www.google.com/maps/dir/?api=1&destination=${encodeURIComponent(
   MAP_QUERY
@@ -28,12 +28,12 @@ export default function ContactMap() {
         <SectionHeading
           eyebrow="Visit Our Campus"
           title="Find Us on the Map"
-          description="Our Perungudi campus is easily accessible from OMR and Rajiv Nagar. Drop in for a guided tour, or get directions right from here."
+          description="Our Saravanampatti campus is easily accessible across Coimbatore. Drop in for a guided tour, or get directions right from here."
         />
 
         <Reveal y={32} className="contact-map__frame">
           <iframe
-            title="KAYO International Preschool — Perungudi Campus Map"
+            title="KAYO International Preschool — Saravanampatti Campus Map"
             src={MAP_SRC}
             className="contact-map__iframe"
             loading="lazy"
@@ -42,8 +42,8 @@ export default function ContactMap() {
           />
 
           <div className="contact-map__card">
-            <strong>KAYO International &mdash; Perungudi Campus</strong>
-            <p>No.3, 1st Cross Street, Rajiv Nagar, Perungudi, Chennai &ndash; 600096</p>
+            <strong>KAYO International &mdash; Saravanampatti Campus</strong>
+            <p>No.14, 1C Marutham Nagar, Saravanampatti, Coimbatore &ndash; 641035</p>
             <a
               href={DIRECTIONS_URL}
               target="_blank"

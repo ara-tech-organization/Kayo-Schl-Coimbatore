@@ -64,8 +64,8 @@ export default function CareersApplicationForm() {
 
             <div className="cr-apply__privacy">
               <Lock size={16} strokeWidth={2} />
-              All information shared is kept strictly confidential and used solely for
-              recruitment purposes.
+              Your details stay with our recruitment team alone — used only to evaluate your
+              application, never shared, never repurposed.
             </div>
           </Reveal>
 
