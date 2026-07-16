@@ -101,12 +101,12 @@
 }
 
 .gallery-preview__chip {
+  display: none;
   position: absolute;
   z-index: 1;
   width: 42px;
   height: 42px;
   border-radius: 14px;
-  display: grid;
   place-items: center;
   background: var(--color-surface);
   box-shadow: var(--shadow-soft);
@@ -290,6 +290,10 @@
 }
 
 @media (min-width: 768px) {
+  .gallery-preview__chip {
+    display: grid;
+  }
+
   .gallery-preview__nav {
     display: flex;
   }

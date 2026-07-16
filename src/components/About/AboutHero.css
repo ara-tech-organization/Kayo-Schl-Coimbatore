@@ -230,14 +230,14 @@
 
 .about-hero__strip-inner {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 24px;
+  grid-template-columns: 1fr;
+  gap: 22px;
   padding: 26px 0;
 }
 
 .about-hero__strip-item {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   gap: 12px;
 }
 
@@ -293,7 +293,25 @@
   }
 }
 
-@media (min-width: 640px) {
+@media (max-width: 575.98px) {
+  .about-hero__copy {
+    align-items: center;
+    text-align: center;
+  }
+
+  .about-hero__crumb {
+    justify-content: center;
+  }
+}
+
+@media (min-width: 576px) {
+  .about-hero__strip-inner {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px 20px;
+  }
+}
+
+@media (min-width: 992px) {
   .about-hero__strip-inner {
     grid-template-columns: repeat(4, 1fr);
   }

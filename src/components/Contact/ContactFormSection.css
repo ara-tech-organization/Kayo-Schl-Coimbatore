@@ -60,6 +60,7 @@
   color: #fff;
   font-size: clamp(1.5rem, 2.6vw, 1.9rem);
   margin: 12px 0 28px;
+  text-align: left;
 }
 
 .contact-info__point {
@@ -86,11 +87,16 @@
   color: var(--color-gold);
 }
 
+.contact-info__point > div {
+  min-width: 0;
+}
+
 .contact-info__point strong {
   display: block;
   font-family: var(--font-display);
   font-size: 0.92rem;
   margin-bottom: 3px;
+  text-align: left;
 }
 
 .contact-info__point p {
@@ -98,6 +104,9 @@
   color: rgba(255, 255, 255, 0.78);
   margin: 0;
   line-height: 1.55;
+  text-align: left;
+  overflow-wrap: break-word;
+  word-break: break-word;
 }
 
 .contact-info__point p a {
@@ -160,11 +169,13 @@
 .contact-form h3 {
   font-size: 1.4rem;
   margin: 10px 0 8px;
+  text-align: left;
 }
 
 .contact-form__hint {
   font-size: 0.9rem;
   margin-bottom: 22px;
+  text-align: left;
 }
 
 .contact-form {

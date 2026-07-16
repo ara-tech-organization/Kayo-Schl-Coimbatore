@@ -124,6 +124,13 @@
   background: var(--color-orange-light);
 }
 
+@media (max-width: 575.98px) {
+  .readiness__bento h3,
+  .readiness__bento p {
+    text-align: left;
+  }
+}
+
 @media (min-width: 576px) {
   .readiness {
     padding: 76px 0 84px;

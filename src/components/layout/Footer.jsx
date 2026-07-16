@@ -7,11 +7,10 @@ const PROGRAMMES = ["Day Care", "Playgroup", "Nursery", "LKG", "UKG", "Primary E
 
 function FacebookIcon(props) {
   return (
-    <svg viewBox="0 0 48 48" aria-hidden="true" {...props}>
-      <circle cx="24" cy="24" r="24" fill="currentColor" />
+    <svg viewBox="0 0 24 24" aria-hidden="true" {...props}>
       <path
-        fill="#fff"
-        d="M26.5 39V25.5H31l.8-5.3h-5.3v-3.4c0-1.5.8-3 3.3-3h2.3V9.3c-.4-.1-1.9-.3-3.7-.3-3.7 0-6.2 2.2-6.2 6.5v3.7H18v5.3h4.4V39h4.1Z"
+        fill="currentColor"
+        d="M13.5 21V13.5H16l.6-3.3h-3.1V8.2c0-.9.5-1.8 2-1.8h1.4V3.7c-.3 0-1.5-.2-2.7-.2-2.7 0-4.6 1.6-4.6 4.6v2.1H6.8v3.3h2.8V21h3.9Z"
       />
     </svg>
   );
@@ -19,42 +18,30 @@ function FacebookIcon(props) {
 
 function InstagramIcon(props) {
   return (
-    <svg viewBox="0 0 48 48" aria-hidden="true" {...props}>
-      <circle cx="24" cy="24" r="24" fill="currentColor" />
-      <rect
-        x="12"
-        y="12"
-        width="24"
-        height="24"
-        rx="7"
-        fill="none"
-        stroke="#fff"
-        strokeWidth="3"
-      />
-      <circle cx="24" cy="24" r="5.8" fill="none" stroke="#fff" strokeWidth="3" />
-      <circle cx="31" cy="17" r="1.9" fill="#fff" />
+    <svg viewBox="0 0 24 24" aria-hidden="true" {...props}>
+      <rect x="3" y="3" width="18" height="18" rx="5.5" fill="none" stroke="currentColor" strokeWidth="1.8" />
+      <circle cx="12" cy="12" r="4.2" fill="none" stroke="currentColor" strokeWidth="1.8" />
+      <circle cx="17.2" cy="6.8" r="1.2" fill="currentColor" />
     </svg>
   );
 }
 
 function YouTubeIcon(props) {
   return (
-    <svg viewBox="0 0 48 48" aria-hidden="true" {...props}>
-      <circle cx="24" cy="24" r="24" fill="currentColor" />
-      <rect x="12" y="15" width="24" height="18" rx="5" fill="#fff" />
-      <path fill="currentColor" d="M21 19.5v9l8-4.5-8-4.5Z" />
+    <svg viewBox="0 0 24 24" aria-hidden="true" {...props}>
+      <rect x="2.5" y="6" width="19" height="12" rx="4" fill="none" stroke="currentColor" strokeWidth="1.8" />
+      <path fill="currentColor" d="M10.2 9v6l5.2-3-5.2-3Z" />
     </svg>
   );
 }
 
 function LinkedInIcon(props) {
   return (
-    <svg viewBox="0 0 48 48" aria-hidden="true" {...props}>
-      <circle cx="24" cy="24" r="24" fill="currentColor" />
-      <circle cx="16.2" cy="17" r="2.6" fill="#fff" />
+    <svg viewBox="0 0 24 24" aria-hidden="true" {...props}>
+      <circle cx="6.2" cy="7" r="1.6" fill="currentColor" />
       <path
-        fill="#fff"
-        d="M13.8 21.2h4.8V34h-4.8V21.2Zm7.6 0h4.6v1.8h.1c.6-1.2 2.2-2.4 4.5-2.4 4.8 0 5.6 3.1 5.6 7V34h-4.8v-5.8c0-1.4 0-3.1-1.9-3.1s-2.2 1.5-2.2 3V34h-4.8V21.2Z"
+        fill="currentColor"
+        d="M4.5 10.2h3.4V20H4.5v-9.8Zm5.6 0h3.3v1.4h.1c.5-.9 1.6-1.8 3.3-1.8 3.5 0 4.2 2.2 4.2 5.1V20h-3.4v-4.5c0-1.1 0-2.4-1.5-2.4s-1.7 1.1-1.7 2.3V20h-3.3v-9.8Z"
       />
     </svg>
   );
@@ -90,13 +77,13 @@ export default function Footer() {
                 target="_blank"
                 rel="noreferrer"
               >
-                <link.icon size={18} />
+                <link.icon size={19} />
               </a>
             ))}
           </div>
         </div>
 
-        <div className="footer__col">
+        <div className="footer__col footer__col--explore">
           <h4>Explore</h4>
           <NavLink to="/">Home</NavLink>
           <NavLink to="/about">About Us</NavLink>
@@ -107,7 +94,7 @@ export default function Footer() {
           <NavLink to="/contact-us">Contact Us</NavLink>
         </div>
 
-        <div className="footer__col">
+        <div className="footer__col footer__col--programmes">
           <h4>Programmes</h4>
           {PROGRAMMES.map((p) => (
             <span key={p}>{p}</span>

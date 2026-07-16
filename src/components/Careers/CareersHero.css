@@ -17,7 +17,7 @@
   position: relative;
   width: 100%;
   max-width: 400px;
-  margin: 34px auto 0;
+  margin: 34px auto 56px;
   z-index: 0;
 }
 
@@ -185,6 +185,18 @@
   margin-top: 8px;
 }
 
+@media (max-width: 575.98px) {
+  .cr-hero__text {
+    align-items: center;
+    text-align: center;
+  }
+
+  .cr-hero__crumb,
+  .cr-hero__cta-row {
+    justify-content: center;
+  }
+}
+
 /* ============ sm >=576px ============ */
 @media (min-width: 576px) {
   .cr-hero {
@@ -194,6 +206,7 @@
   .cr-hero__visual {
     max-width: 500px;
     margin-top: 44px;
+    margin-bottom: 62px;
   }
 
   .cr-hero__badge {
@@ -218,6 +231,7 @@
 @media (min-width: 768px) {
   .cr-hero__visual {
     max-width: 560px;
+    margin-bottom: 68px;
   }
 
   .cr-hero__text {

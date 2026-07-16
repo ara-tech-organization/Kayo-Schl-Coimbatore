@@ -130,6 +130,12 @@
   color: var(--color-primary-dark);
 }
 
+@media (max-width: 575.98px) {
+  .fr-testi__stack p {
+    text-align: left;
+  }
+}
+
 @media (min-width: 992px) {
   .fr-testi__stack {
     grid-template-columns: repeat(3, 1fr);

@@ -9,9 +9,29 @@
 
 .footer__grid {
   display: grid;
-  gap: 48px;
-  grid-template-columns: 1fr;
+  gap: 32px 24px;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-areas:
+    "brand brand"
+    "explore programmes"
+    "contact contact";
   padding-bottom: 56px;
+}
+
+.footer__brand {
+  grid-area: brand;
+}
+
+.footer__col--explore {
+  grid-area: explore;
+}
+
+.footer__col--programmes {
+  grid-area: programmes;
+}
+
+.footer__contact {
+  grid-area: contact;
 }
 
 .footer__logo {
@@ -33,29 +53,33 @@
 }
 
 .footer__social a {
-  width: 44px;
-  height: 44px;
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  border: 1.5px solid rgba(154, 46, 160, 0.4);
   display: inline-flex;
   align-items: center;
   justify-content: center;
   color: #9a2ea0;
+  background: transparent;
   line-height: 0;
   transform-origin: center;
   transition: transform var(--dur-fast) var(--ease-premium), color var(--dur-fast) var(--ease-premium),
-    opacity var(--dur-fast) var(--ease-premium);
+    background var(--dur-fast) var(--ease-premium), border-color var(--dur-fast) var(--ease-premium);
 }
 
 .footer__social a svg {
-  width: 44px;
-  height: 44px;
+  width: 19px;
+  height: 19px;
   display: block;
   flex-shrink: 0;
 }
 
 .footer__social a:hover {
-  color: #7f1f84;
-  transform: translateY(-2px) scale(1.03);
-  opacity: 0.96;
+  color: #fff;
+  background: #9a2ea0;
+  border-color: #9a2ea0;
+  transform: translateY(-3px);
 }
 
 .footer__social a:focus-visible {
@@ -111,11 +135,19 @@
 
 @media (min-width: 768px) {
   .footer__grid {
-    grid-template-columns: 1.4fr 0.8fr 0.8fr 1fr;
+    gap: 36px 32px;
   }
 
   .footer__bottom-inner {
     flex-direction: row;
     justify-content: space-between;
+  }
+}
+
+@media (min-width: 992px) {
+  .footer__grid {
+    grid-template-columns: 1.4fr 0.8fr 0.8fr 1fr;
+    grid-template-areas: "brand explore programmes contact";
+    gap: 48px;
   }
 }

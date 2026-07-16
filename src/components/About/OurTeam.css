@@ -146,6 +146,13 @@
   box-shadow: var(--shadow-lift);
 }
 
+@media (max-width: 575.98px) {
+  .our-team__grid-cards h3,
+  .our-team__grid-cards p {
+    text-align: left;
+  }
+}
+
 @media (min-width: 576px) {
   .our-team__grid-cards {
     grid-template-columns: repeat(2, 1fr);

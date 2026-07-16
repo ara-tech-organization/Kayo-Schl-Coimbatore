@@ -107,6 +107,13 @@
   background: var(--color-orange-light);
 }
 
+@media (max-width: 575.98px) {
+  .fr-why__bento h3,
+  .fr-why__bento p {
+    text-align: left;
+  }
+}
+
 @media (min-width: 576px) {
   .fr-why__bento {
     grid-template-columns: repeat(2, 1fr);

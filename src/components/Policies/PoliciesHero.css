@@ -28,6 +28,22 @@
   align-items: center;
 }
 
+@media (max-width: 575.98px) {
+  .pol-hero__copy {
+    text-align: center;
+  }
+
+  .pol-hero__crumb,
+  .pol-hero__actions,
+  .pol-hero__stats {
+    justify-content: center;
+  }
+
+  .pol-hero__stat {
+    align-items: center;
+  }
+}
+
 /* ---------- Copy column ---------- */
 
 .pol-hero__crumb {

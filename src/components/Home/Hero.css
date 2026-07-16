@@ -261,6 +261,15 @@
 }
 
 @media (max-width: 575.98px) {
+  .hero__copy {
+    align-items: center;
+    text-align: center;
+  }
+
+  .hero__actions {
+    justify-content: center;
+  }
+
   .hero__visual {
     max-width: 320px;
   }
