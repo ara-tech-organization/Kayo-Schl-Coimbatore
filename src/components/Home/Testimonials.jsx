@@ -27,10 +27,10 @@ export default function Testimonials() {
       <div className="container">
         <SectionHeading eyebrow="Parent Voices" title="What Parents Say About Kayo International" />
 
-        <Reveal delay={0.05} y={30}>
-          <div className="testimonials__rail">
-            {TESTIMONIALS.map((t) => (
-              <div className="testimonials__card" key={t.source}>
+        <div className="testimonials__row">
+          {TESTIMONIALS.map((t, i) => (
+            <Reveal key={t.source} delay={0.08 * i} y={36}>
+              <div className={`testimonials__card testimonials__card--${i}`}>
                 <Quote className="testimonials__quote-icon" strokeWidth={1.5} />
                 <div className="testimonials__stars">
                   {Array.from({ length: 5 }).map((_, s) => (
@@ -40,9 +40,9 @@ export default function Testimonials() {
                 <p>&ldquo;{t.quote}&rdquo;</p>
                 <span className="testimonials__source">&mdash; {t.source}</span>
               </div>
-            ))}
-          </div>
-        </Reveal>
+            </Reveal>
+          ))}
+        </div>
       </div>
     </section>
   );
