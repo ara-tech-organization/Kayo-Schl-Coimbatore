@@ -1,0 +1,10 @@
+RewriteEngine On
+RewriteBase /saravanampatti/
+
+# Let real files and directories (assets, images, etc.) serve as-is
+RewriteCond %{REQUEST_FILENAME} -f [OR]
+RewriteCond %{REQUEST_FILENAME} -d
+RewriteRule ^ - [L]
+
+# Everything else falls back to index.html so React Router can handle the route
+RewriteRule ^ index.html [L]
