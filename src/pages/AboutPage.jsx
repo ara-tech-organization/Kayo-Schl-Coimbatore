@@ -26,7 +26,7 @@ const ABOUT_SCHEMA = {
     postalCode: "641035",
     addressCountry: "IN",
   },
-  areaServed: ["Saravanampatti, Coimbatore", "Perungudi, Chennai"],
+  areaServed: ["Saravanampatti, Coimbatore"],
 };
 
 export default function AboutPage() {

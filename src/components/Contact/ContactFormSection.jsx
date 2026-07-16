@@ -15,7 +15,7 @@ import "./ContactFormSection.css";
 
 const CHILD_AGES = ["1.5–2 Years", "2–3 Years", "3–4 Years", "4–6 Years", "6-12 Years"];
 const PROGRAMMES = ["Playgroup", "Nursery", "Junior KG", "Senior KG", "Daycare"];
-const BRANCHES = ["Saravanampatti, Coimbatore", "Perungudi, Chennai"];
+const BRANCHES = ["Saravanampatti, Coimbatore"];
 
 export default function ContactFormSection() {
   const [submitted, setSubmitted] = useState(false);
